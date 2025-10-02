@@ -1,0 +1,918 @@
+- prompt: "one dog and two cats"
+  t5: [[1, 0], [4, 3]]
+  clip: [[2, 1], [5, 4]]
+- prompt: "one dog and three cats"
+  t5: [[1, 0], [4, 3]]
+  clip: [[2, 1], [5, 4]]
+- prompt: "one dog and two birds"
+  t5: [[1, 0], [4, 3]]
+  clip: [[2, 1], [5, 4]]
+- prompt: "one dog and three birds"
+  t5: [[1, 0], [4, 3]]
+  clip: [[2, 1], [5, 4]]
+- prompt: "one cat and two dogs"
+  t5: [[1, 0], [4, 3]]
+  clip: [[2, 1], [5, 4]]
+- prompt: "one cat and three dogs"
+  t5: [[1, 0], [4, 3]]
+  clip: [[2, 1], [5, 4]]
+- prompt: "one cat and two birds"
+  t5: [[1, 0], [4, 3]]
+  clip: [[2, 1], [5, 4]]
+- prompt: "one cat and three birds"
+  t5: [[1, 0], [4, 3]]
+  clip: [[2, 1], [5, 4]]
+- prompt: "one zebra and two birds"
+  t5: [[6, 5]]
+  clip: [[2, 1], [5, 4]]
+- prompt: "one zebra and three birds"
+  t5: [[6, 5]]
+  clip: [[2, 1], [5, 4]]
+- prompt: "one pineapple and two apples"
+  t5: [[1, 0], [4, 3]]
+  clip: [[2, 1], [5, 4]]
+- prompt: "one pineapple and two oranges"
+  t5: [[1, 0]]
+  clip: [[2, 1], [5, 4]]
+- prompt: "one pineapple and three apples"
+  t5: [[1, 0], [4, 3]]
+  clip: [[2, 1], [5, 4]]
+- prompt: "two pineapple and two apples"
+  t5: [[1, 0], [4, 0]]
+  clip: [[2, 1], [5, 4]]
+- prompt: "one banana and two apples"
+  t5: [[1, 0], [4, 3]]
+  clip: [[2, 1], [5, 4]]
+- prompt: "two oranges and two apples"
+  t5: [[5, 0]]
+  clip: [[2, 1], [5, 4]]
+- prompt: "one banana and two oranges"
+  t5: [[1, 0]]
+  clip: [[2, 1], [5, 4]]
+- prompt: "two banana and two oranges"
+  t5: [[1, 0]]
+  clip: [[2, 1], [5, 4]]
+- prompt: "one apple and two donuts"
+  t5: [[1, 0]]
+  clip: [[2, 1], [5, 4]]
+- prompt: "one apple and three donuts"
+  t5: [[1, 0]]
+  clip: [[2, 1], [5, 4]]
+- prompt: "two apples and two donuts"
+  t5: [[1, 0]]
+  clip: [[2, 1], [5, 4]]
+- prompt: "one apple and two sandwiches "
+  t5: [[1, 0], [4, 3]]
+  clip: [[2, 1], [5, 4]]
+- prompt: "one sandwich and two apples"
+  t5: [[1, 0], [4, 3]]
+  clip: [[2, 1], [5, 4]]
+- prompt: "two dogs next to a bike"
+  t5: [[1, 0], [6]]
+  clip: [[2, 1], [6]]
+- prompt: "two cats next to a bike"
+  t5: [[1, 0], [6]]
+  clip: [[2, 1], [6]]
+- prompt: "three zebras standing next to each other"
+  t5: [[2, 0]]
+  clip: [[2, 1]]
+- prompt: "three sheep standing in the field"
+  t5: [[1, 0]]
+  clip: [[2, 1]]
+- prompt: "three cows standing in the field"
+  t5: []
+  clip: [[2, 1]]
+- prompt: "three geese floating in the middle of a river"
+  t5: []
+  clip: [[2, 1]]
+- prompt: "three bowls on the table"
+  t5: [[5]]
+  clip: [[2, 1], [5]]
+- prompt: "a elephant and a rabbit"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a dog and a frog"
+  t5: [[2]]
+  clip: [[2], [5]]
+- prompt: "a bird and a mouse"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a monkey and a frog"
+  t5: [[2]]
+  clip: [[2], [5]]
+- prompt: "a horse and a monkey"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a bird and a turtle"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a bird and a lion"
+  t5: [[2], [7]]
+  clip: [[2], [5]]
+- prompt: "a lion and a monkey"
+  t5: [[3], [7]]
+  clip: [[2], [5]]
+- prompt: "a horse and a turtle"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a bird and a monkey"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a bear and a frog"
+  t5: [[2]]
+  clip: [[2], [5]]
+- prompt: "a bear and a turtle"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a dog and a elephant"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a dog and a horse"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a turtle and a mouse"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a cat and a turtle"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a dog and a mouse"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a cat and a elephant"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a cat and a bird"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a dog and a monkey"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a lion and a mouse"
+  t5: [[3], [7]]
+  clip: [[2], [5]]
+- prompt: "a bear and a lion"
+  t5: [[2], [7]]
+  clip: [[2], [5]]
+- prompt: "a bird and a elephant"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a lion and a turtle"
+  t5: [[3], [7]]
+  clip: [[2], [5]]
+- prompt: "a dog and a bird"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a bird and a rabbit"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a elephant and a turtle"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a lion and a elephant"
+  t5: [[3], [7]]
+  clip: [[2], [5]]
+- prompt: "a cat and a rabbit"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a dog and a bear"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a dog and a rabbit"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a cat and a bear"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a bird and a horse"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a rabbit and a mouse"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a bird and a bear"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a bear and a monkey"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a horse and a frog"
+  t5: [[2]]
+  clip: [[2], [5]]
+- prompt: "a cat and a horse"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a frog and a rabbit"
+  t5: [[8]]
+  clip: [[2], [5]]
+- prompt: "a bear and a mouse"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a monkey and a rabbit"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a cat and a dog"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a lion and a frog"
+  t5: [[3]]
+  clip: [[2], [5]]
+- prompt: "a frog and a mouse"
+  t5: [[8]]
+  clip: [[2], [5]]
+- prompt: "a dog and a lion"
+  t5: [[2], [7]]
+  clip: [[2], [5]]
+- prompt: "a lion and a rabbit"
+  t5: [[3], [7]]
+  clip: [[2], [5]]
+- prompt: "a elephant and a frog"
+  t5: [[2]]
+  clip: [[2], [5]]
+- prompt: "a frog and a turtle"
+  t5: [[8]]
+  clip: [[2], [5]]
+- prompt: "a cat and a lion"
+  t5: [[2], [7]]
+  clip: [[2], [5]]
+- prompt: "a horse and a rabbit"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a cat and a monkey"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a bear and a rabbit"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a turtle and a rabbit"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a elephant and a monkey"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a bird and a frog"
+  t5: [[2]]
+  clip: [[2], [5]]
+- prompt: "a lion and a horse"
+  t5: [[3], [7]]
+  clip: [[2], [5]]
+- prompt: "a bear and a horse"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a bear and a elephant"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a horse and a mouse"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a dog and a turtle"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a monkey and a mouse"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a cat and a frog"
+  t5: [[2]]
+  clip: [[2], [5]]
+- prompt: "a monkey and a turtle"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a horse and a elephant"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a cat and a mouse"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a elephant and a mouse"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a pink crown and a purple bow"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a blue clock and a blue apple"
+  t5: [[3, 2], [8, 2]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a blue balloon and a orange bench"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a pink crown and a red chair"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a orange chair and a blue clock"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a purple bowl and a black bench"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a green glasses and a black crown"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a purple chair and a red bow"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a yellow glasses and a black car"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a orange backpack and a purple car"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a white balloon and a white apple"
+  t5: [[3, 2], [8, 2]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a brown suitcase and a black clock"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a yellow backpack and a purple chair"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a gray backpack and a green clock"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a blue crown and a red balloon"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a gray suitcase and a black bowl"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a brown balloon and a pink car"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a black backpack and a green bow"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a blue balloon and a blue bow"
+  t5: [[3, 2], [8, 2]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a white bow and a white car"
+  t5: [[3, 2], [8, 2]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a orange bowl and a purple apple"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a brown chair and a white bench"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a purple crown and a blue suitcase"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a yellow bow and a orange bench"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a yellow glasses and a brown bow"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a red glasses and a red suitcase"
+  t5: [[3, 2], [8, 2]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a pink bow and a gray apple"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a gray crown and a white clock"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a black car and a white clock"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a brown bowl and a green clock"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a green backpack and a yellow crown"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a orange glasses and a pink clock"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a purple chair and a orange bowl"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a orange suitcase and a brown bench"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a white glasses and a orange balloon"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a yellow backpack and a gray apple"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a green bench and a red apple"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a gray backpack and a yellow glasses"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a green glasses and a yellow chair"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a white glasses and a gray apple"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a gray suitcase and a brown bow"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a white car and a black bowl"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a purple car and a pink apple"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a gray crown and a purple apple"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a orange car and a red bench"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a red suitcase and a blue apple"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a red backpack and a yellow bowl"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a red bench and a yellow clock"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a black backpack and a pink balloon"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a blue suitcase and a gray balloon"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a yellow glasses and a gray bowl"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a white suitcase and a white chair"
+  t5: [[3, 2], [8, 2]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a purple crown and a blue bench"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a yellow bow and a pink bowl"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a green backpack and a brown suitcase"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a green glasses and a black bench"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a white bow and a black clock"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a red crown and a black bowl"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a green chair and a purple car"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a white chair and a gray balloon"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a pink chair and a gray apple"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a yellow suitcase and a yellow car"
+  t5: [[3, 2], [8, 2]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a green backpack and a purple bench"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a black crown and a red car"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a green balloon and a pink bowl"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a purple balloon and a white clock"
+  t5: [[3, 2], [8, 7]]
+  clip: [[3, 2], [7, 6]]
+- prompt: "a horse with a glasses"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a bear with a glasses"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a monkey and a red car"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a elephant with a bow"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a frog and a purple balloon"
+  t5: [[9, 8]]
+  clip: [[2], [6, 5]]
+- prompt: "a mouse with a bow"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a bird with a crown"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a turtle and a yellow bowl"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a rabbit and a gray chair"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a dog and a black apple"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a rabbit and a white bench"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a lion and a yellow clock"
+  t5: [[3], [8, 7]]
+  clip: [[2], [6, 5]]
+- prompt: "a turtle and a gray backpack"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a elephant and a green balloon"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a monkey and a orange apple"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a lion and a red car"
+  t5: [[3], [8, 7]]
+  clip: [[2], [6, 5]]
+- prompt: "a lion with a crown"
+  t5: [[3], [7]]
+  clip: [[2], [5]]
+- prompt: "a bird and a purple bench"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a rabbit and a orange backpack"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a rabbit and a orange apple"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a monkey and a green bowl"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a frog and a red suitcase"
+  t5: [[9, 8]]
+  clip: [[2], [6, 5]]
+- prompt: "a monkey and a green balloon"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a cat with a glasses"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a bear and a blue clock"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a cat and a gray bench"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a bear with a crown"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a lion with a bow"
+  t5: [[3], [7]]
+  clip: [[2], [5]]
+- prompt: "a bear and a red balloon"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a bird and a black backpack"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a horse and a pink balloon"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a turtle and a yellow car"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a lion with a glasses"
+  t5: [[3], [7]]
+  clip: [[2], [5]]
+- prompt: "a cat and a yellow balloon"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a horse and a yellow clock"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a dog with a glasses"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a horse and a blue backpack"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a frog with a bow"
+  t5: [[8]]
+  clip: [[2], [5]]
+- prompt: "a elephant with a glasses"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a mouse and a red bench"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a bird and a brown balloon"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a monkey and a yellow backpack"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a turtle and a pink balloon"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a cat and a red apple"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a monkey and a brown bench"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a rabbit with a glasses"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a bear and a gray bench"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a turtle and a blue clock"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a monkey and a blue chair"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a turtle and a blue chair"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a dog with a bow"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a elephant and a black chair"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a mouse and a purple chair"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a bear and a white car"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a lion and a black backpack"
+  t5: [[3], [8, 7]]
+  clip: [[2], [6, 5]]
+- prompt: "a dog with a crown"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a horse and a green apple"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a dog and a gray clock"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a dog and a purple car"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a dog and a gray bowl"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a monkey with a bow"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a mouse and a blue clock"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a bird and a black bowl"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a horse and a white car"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a mouse and a pink apple"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a bear and a orange backpack"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a elephant and a yellow clock"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a bird and a green chair"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a mouse and a black balloon"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a turtle and a white bench"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a bird with a bow"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a turtle with a crown"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a bird and a yellow car"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a frog and a orange car"
+  t5: [[9, 8]]
+  clip: [[2], [6, 5]]
+- prompt: "a dog and a pink bench"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a frog with a crown"
+  t5: [[8]]
+  clip: [[2], [5]]
+- prompt: "a frog and a green bowl"
+  t5: [[9, 8]]
+  clip: [[2], [6, 5]]
+- prompt: "a frog and a pink bench"
+  t5: [[9, 8]]
+  clip: [[2], [6, 5]]
+- prompt: "a horse with a bow"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a bird and a yellow apple"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a monkey with a crown"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a cat and a blue backpack"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a turtle and a pink apple"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a dog and a orange chair"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a horse and a green suitcase"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a elephant with a crown"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a monkey and a orange suitcase"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a turtle and a orange suitcase"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a lion and a gray apple"
+  t5: [[3], [8, 7]]
+  clip: [[2], [6, 5]]
+- prompt: "a mouse with a crown"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a mouse with a glasses"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a horse and a brown bowl"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a monkey and a yellow clock"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a turtle with a bow"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a dog and a brown backpack"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a cat and a purple bowl"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a lion and a white bench"
+  t5: [[3], [8, 7]]
+  clip: [[2], [6, 5]]
+- prompt: "a rabbit and a blue bowl"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a lion and a brown balloon"
+  t5: [[3], [8, 7]]
+  clip: [[2], [6, 5]]
+- prompt: "a horse and a pink chair"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a elephant and a green bench"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a rabbit and a white balloon"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a elephant and a pink backpack"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a lion and a orange suitcase"
+  t5: [[3], [8, 7]]
+  clip: [[2], [6, 5]]
+- prompt: "a elephant and a orange apple"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a elephant and a green suitcase"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a horse with a crown"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a bear with a bow"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a rabbit and a yellow suitcase"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a horse and a blue bench"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a dog and a green suitcase"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a mouse and a red car"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a cat and a black chair"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a bear and a red suitcase"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a rabbit and a gray clock"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a bear and a pink apple"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a lion and a white chair"
+  t5: [[3], [8, 7]]
+  clip: [[2], [6, 5]]
+- prompt: "a rabbit with a crown"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a mouse and a purple bowl"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a frog and a black apple"
+  t5: [[9, 8]]
+  clip: [[2], [6, 5]]
+- prompt: "a rabbit with a bow"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a mouse and a pink suitcase"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a lion and a pink bowl"
+  t5: [[3], [8, 7]]
+  clip: [[2], [6, 5]]
+- prompt: "a frog and a black chair"
+  t5: [[9, 8]]
+  clip: [[2], [6, 5]]
+- prompt: "a frog and a green clock"
+  t5: [[9, 8]]
+  clip: [[2], [6, 5]]
+- prompt: "a bear and a white chair"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a elephant and a brown car"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a turtle with a glasses"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a cat and a black suitcase"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a cat and a yellow car"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a frog and a yellow backpack"
+  t5: [[9, 8]]
+  clip: [[2], [6, 5]]
+- prompt: "a bird and a black suitcase"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a cat with a crown"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a rabbit and a yellow car"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a cat with a bow"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a bird and a white clock"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a cat and a green clock"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a bear and a purple bowl"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a monkey with a glasses"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a frog with a glasses"
+  t5: [[8]]
+  clip: [[2], [5]]
+- prompt: "a elephant and a green bowl"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a bird with a glasses"
+  t5: [[2], [6]]
+  clip: [[2], [5]]
+- prompt: "a dog and a blue balloon"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]
+- prompt: "a mouse and a brown backpack"
+  t5: [[2], [7, 6]]
+  clip: [[2], [6, 5]]

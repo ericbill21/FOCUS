@@ -1,0 +1,31 @@
+- prompt: "A sunflower, a daisy, and a black-eyed Susan growing in a wildflower field"
+  t5: [[1], [5, 6], [12, 13, 14, 15, 16]]
+  clip: [[2], [5], [9, 10, 11, 12]]
+
+- prompt: "A crow, a raven, and a blackbird perched on a foggy fence post"
+  t5: [[2, 3], [7, 8], [13, 14]]
+  clip: [[2], [5], [9]]
+
+- prompt: "A Labrador, a Golden Retriever, and a German Shepherd playing in a backyard"
+  t5: [[1, 2, 3], [7, 8, 9], [14, 15]]
+  clip: [[2], [5, 6], [10, 11]]
+
+- prompt: "A horse, a bear, and a moose in a forest clearing"
+  t5: [[1], [5], [12, 13]]
+  clip: [[2], [5], [9]]
+
+- prompt: "A sparrow, a finch, and a robin perched on a blossoming tree branch"
+  t5: [[1, 2], [6, 7], [13, 14]]
+  clip: [[2], [5], [9]]
+
+- prompt: "A red car, a blue car, and a green car parked side by side on a city street"
+  t5:  [[1, 2], [6, 7], [12, 13]]
+  clip: [[2, 3], [6, 7], [11, 12]]
+
+- prompt: "A black cat, an orange cat, and a white cat lounging on a windowsill"
+  t5: [[1, 2], [5, 6], [11, 12]]
+  clip: [[2, 3], [6, 7], [11, 12]]
+
+- prompt: "A pencil, a pen, and a paintbrush lying across a sketchbook"
+  t5: [[1], [5], [10, 11]]
+  clip: [[2], [65], [9, 10]]

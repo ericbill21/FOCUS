@@ -1,0 +1,2777 @@
+- prompt: A robin, a bluebird, and a warbler perched on a garden fence at dawn
+  subjects:
+  - robin
+  - bluebird
+  - warbler
+  clip:
+  - - 2
+  - - 5
+  - - 9
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+  - - 13
+    - 14
+    - 15
+- prompt: A Siberian Husky, an Alaskan Malamute, and a Samoyed trotting through fresh
+    snow
+  subjects:
+  - Siberian Husky
+  - Alaskan Malamute
+  - Samoyed
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+    - 8
+    - 9
+  - - 13
+    - 14
+  t5:
+  - - 1
+    - 2
+    - 3
+    - 4
+    - 5
+  - - 8
+    - 9
+    - 10
+    - 11
+    - 12
+  - - 17
+    - 18
+    - 19
+- prompt: A cheetah, a leopard, and a jaguar resting in dappled jungle shade
+  subjects:
+  - cheetah
+  - leopard
+  - jaguar
+  clip:
+  - - 2
+  - - 5
+  - - 9
+  t5:
+  - - 2
+    - 3
+    - 4
+    - 5
+    - 6
+  - - 10
+  - - 15
+    - 16
+    - 17
+- prompt: A violin, a viola, and a cello leaning on stands in a rehearsal room
+  subjects:
+  - violin
+  - viola
+  - cello
+  clip:
+  - - 2
+  - - 5
+  - - 9
+  t5:
+  - - 1
+  - - 6
+    - 7
+  - - 12
+    - 13
+- prompt: A red tulip, a yellow tulip, and a white tulip blooming in a clay planter
+  subjects:
+  - red tulip
+  - yellow tulip
+  - white tulip
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+    - 12
+  t5:
+  - - 1
+    - 2
+    - 3
+    - 4
+    - 5
+  - - 9
+    - 10
+    - 11
+    - 12
+    - 13
+  - - 18
+    - 19
+    - 20
+    - 21
+    - 22
+- prompt: A hammerhead shark and a great white shark circling over a coral shelf
+  subjects:
+  - hammerhead shark
+  - great white shark
+  clip:
+  - - 2
+    - 3
+    - 4
+  - - 7
+    - 8
+    - 9
+  t5:
+  - - 2
+    - 3
+    - 4
+    - 5
+  - - 9
+    - 10
+    - 11
+- prompt: A hawk and a falcon riding thermals above rolling hills
+  subjects:
+  - hawk
+  - falcon
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: A koala and a wombat foraging beneath eucalyptus trees
+  subjects:
+  - koala
+  - wombat
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+    - 3
+    - 4
+    - 5
+  - - 9
+    - 10
+    - 11
+- prompt: A lynx, a bobcat, and a cougar stepping across a rocky ledge
+  subjects:
+  - lynx
+  - bobcat
+  - cougar
+  clip:
+  - - 2
+  - - 5
+  - - 9
+  t5:
+  - - 2
+    - 3
+    - 4
+  - - 9
+    - 10
+  - - 16
+    - 17
+- prompt: A pomegranate, a grapefruit, and a blood orange sliced on a marble board
+  subjects:
+  - pomegranate
+  - grapefruit
+  - blood orange
+  clip:
+  - - 2
+  - - 5
+  - - 9
+    - 10
+  t5:
+  - - 2
+    - 3
+    - 4
+    - 5
+  - - 9
+    - 10
+  - - 15
+    - 16
+- prompt: A mandarin duck and a mallard gliding across a glassy pond
+  subjects:
+  - mandarin duck
+  - mallard
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 1
+    - 2
+    - 3
+    - 4
+  - - 8
+    - 9
+- prompt: A peregrine falcon and a kestrel perched on a cliffside outcrop
+  subjects:
+  - peregrine falcon
+  - kestrel
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+  - - 11
+    - 12
+    - 13
+- prompt: A black bear and a brown bear ambling along a riverbank
+  subjects:
+  - black bear
+  - brown bear
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+- prompt: A dalmatian, a beagle, and a basset hound napping on a sunlit porch
+  subjects:
+  - dalmatian
+  - beagle
+  - basset hound
+  clip:
+  - - 2
+    - 3
+  - - 6
+  - - 10
+    - 11
+    - 12
+  t5:
+  - - 2
+    - 3
+    - 4
+    - 5
+  - - 9
+    - 10
+    - 11
+  - - 16
+    - 17
+    - 18
+    - 19
+- prompt: A red fox and an arctic fox sitting side by side in tall grass
+  subjects:
+  - red fox
+  - arctic fox
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 1
+    - 2
+    - 3
+  - - 7
+    - 8
+    - 9
+    - 10
+- prompt: A swan, a goose, and a duck drifting past lily pads
+  subjects:
+  - swan
+  - goose
+  - duck
+  clip:
+  - - 2
+  - - 5
+  - - 9
+  t5:
+  - - 2
+    - 3
+  - - 7
+  - - 12
+- prompt: A stingray and a manta ray soaring over a sandy seabed
+  subjects:
+  - stingray
+  - manta ray
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+    - 9
+    - 10
+    - 11
+- prompt: A sunflower, a daisy, and a chrysanthemum in a mason jar
+  subjects:
+  - sunflower
+  - daisy
+  - chrysanthemum
+  clip:
+  - - 2
+  - - 5
+  - - 9
+    - 10
+    - 11
+    - 12
+  t5:
+  - - 1
+  - - 5
+    - 6
+    - 7
+  - - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+- prompt: A macaw, a cockatoo, and an Amazon parrot perched on a jungle vine
+  subjects:
+  - macaw
+  - cockatoo
+  - Amazon parrot
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+    - 8
+    - 9
+  - - 13
+    - 14
+  t5:
+  - - 1
+    - 2
+    - 3
+  - - 8
+    - 9
+    - 10
+    - 11
+  - - 15
+    - 16
+    - 17
+- prompt: A puffin and a penguin standing on a windswept shoreline
+  subjects:
+  - puffin
+  - penguin
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+- prompt: A black horse, a chestnut horse, and a gray horse grazing in a misty pasture
+  subjects:
+  - black horse
+  - chestnut horse
+  - gray horse
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+    - 12
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+    - 8
+  - - 13
+    - 14
+- prompt: A zebra and an okapi browsing near acacia trees
+  subjects:
+  - zebra
+  - okapi
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: A dolphin, a porpoise, and a beluga surfacing in calm waters
+  subjects:
+  - dolphin
+  - porpoise
+  - beluga
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+    - 11
+  t5:
+  - - 1
+  - - 5
+    - 6
+    - 7
+    - 8
+    - 9
+  - - 14
+    - 15
+    - 16
+- prompt: A red apple, a green apple, and a yellow apple arranged in a row
+  subjects:
+  - red apple
+  - green apple
+  - yellow apple
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+    - 12
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  - - 12
+    - 13
+- prompt: A mango, a papaya, and a pineapple sliced on a wooden counter
+  subjects:
+  - mango
+  - papaya
+  - pineapple
+  clip:
+  - - 2
+  - - 5
+  - - 9
+  t5:
+  - - 1
+  - - 5
+    - 6
+    - 7
+  - - 12
+- prompt: A skateboard, a longboard, and a cruiser leaning against a brick wall
+  subjects:
+  - skateboard
+  - longboard
+  - cruiser
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  - - 12
+    - 13
+- prompt: A canoe, a kayak, and a paddleboard tied to a lakeside dock
+  subjects:
+  - canoe
+  - kayak
+  - paddleboard
+  clip:
+  - - 2
+  - - 5
+  - - 9
+    - 10
+  t5:
+  - - 1
+    - 2
+    - 3
+  - - 7
+  - - 12
+    - 13
+- prompt: A road bike, a gravel bike, and a mountain bike resting beside a trailhead
+  subjects:
+  - road bike
+  - gravel bike
+  - mountain bike
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+    - 12
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  - - 12
+    - 13
+- prompt: A violin bow and a cello bow crossed on a velvet cloth
+  subjects:
+  - violin bow
+  - cello bow
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+    - 8
+- prompt: A grand piano and an upright piano facing each other in a studio
+  subjects:
+  - grand piano
+  - upright piano
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 1
+    - 2
+  - - 5
+    - 6
+- prompt: A teapot, a kettle, and a French press on a marble countertop
+  subjects:
+  - teapot
+  - kettle
+  - French press
+  clip:
+  - - 2
+  - - 5
+  - - 9
+    - 10
+  t5:
+  - - 1
+    - 2
+  - - 6
+  - - 11
+    - 12
+- prompt: A chef’s knife, a santoku, and a paring knife laid on a cutting board
+  subjects:
+  - chef’s knife
+  - santoku
+  - paring knife
+  clip:
+  - - 2
+    - 3
+    - 4
+  - - 7
+    - 8
+  - - 12
+    - 13
+    - 14
+  t5:
+  - - 1
+    - 2
+    - 3
+    - 4
+  - - 9
+    - 10
+    - 11
+  - - 16
+    - 17
+    - 18
+- prompt: A DSLR camera, a mirrorless camera, and a rangefinder camera on a wooden
+    table
+  subjects:
+  - DSLR camera
+  - mirrorless camera
+  - rangefinder camera
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+    - 8
+  - - 12
+    - 13
+    - 14
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+    - 8
+  - - 13
+    - 14
+    - 15
+- prompt: A fountain pen, a rollerball pen, and a ballpoint pen aligned on a notebook
+  subjects:
+  - fountain pen
+  - rollerball pen
+  - ballpoint pen
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+    - 8
+  - - 12
+    - 13
+    - 14
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+    - 8
+  - - 13
+    - 14
+    - 15
+- prompt: A ceramic mug, a glass mug, and an enamel mug steaming on a windowsill
+  subjects:
+  - ceramic mug
+  - glass mug
+  - enamel mug
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+    - 12
+  t5:
+  - - 1
+    - 2
+    - 3
+  - - 7
+    - 8
+    - 9
+  - - 13
+    - 14
+    - 15
+- prompt: A copper pan, a cast-iron pan, and a stainless-steel pan cooling on the
+    stove
+  subjects:
+  - copper pan
+  - cast-iron pan
+  - stainless-steel pan
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+    - 8
+    - 9
+  - - 13
+    - 14
+    - 15
+    - 16
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+    - 8
+    - 9
+  - - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+- prompt: A basil plant, a mint plant, and a rosemary sprig on a kitchen sill
+  subjects:
+  - basil plant
+  - mint plant
+  - rosemary sprig
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+    - 12
+    - 13
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  - - 12
+    - 13
+    - 14
+    - 15
+    - 16
+- prompt: A tulip, a daffodil, a hyacinth, and a crocus blooming by a garden path
+  subjects:
+  - tulip
+  - daffodil
+  - hyacinth
+  - crocus
+  clip:
+  - - 2
+  - - 5
+    - 6
+    - 7
+  - - 10
+    - 11
+  - - 15
+    - 16
+  t5:
+  - - 2
+    - 3
+    - 4
+  - - 9
+    - 10
+    - 11
+    - 12
+    - 13
+  - - 18
+    - 19
+    - 20
+    - 21
+    - 22
+  - - 28
+    - 29
+    - 30
+- prompt: A red car, a blue car, and a silver car parked beneath neon lights
+  subjects:
+  - red car
+  - blue car
+  - silver car
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+    - 12
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  - - 12
+    - 13
+- prompt: A pickup truck and a cargo van idling beside a warehouse
+  subjects:
+  - pickup truck
+  - cargo van
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+- prompt: A sailboat, a catamaran, and a yacht anchored in a quiet cove
+  subjects:
+  - sailboat
+  - catamaran
+  - yacht
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+    - 8
+  - - 12
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+    - 8
+  - - 13
+- prompt: A biplane and a glider soaring above patchwork fields
+  subjects:
+  - biplane
+  - glider
+  clip:
+  - - 2
+    - 3
+  - - 6
+  t5:
+  - - 1
+    - 2
+    - 3
+  - - 7
+    - 8
+- prompt: A steam locomotive and a diesel locomotive waiting at a rural station
+  subjects:
+  - steam locomotive
+  - diesel locomotive
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+- prompt: A smartwatch, a digital watch, and an analog watch resting on a leather
+    tray
+  subjects:
+  - smartwatch
+  - digital watch
+  - analog watch
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+    - 11
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  - - 11
+    - 12
+- prompt: A hiking backpack, a daypack, and a messenger bag propped against a cabin
+    wall
+  subjects:
+  - hiking backpack
+  - daypack
+  - messenger bag
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+    - 12
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  - - 12
+    - 13
+- prompt: A fedora, a beanie, and a baseball cap hanging on a coat rack
+  subjects:
+  - fedora
+  - beanie
+  - baseball cap
+  clip:
+  - - 2
+  - - 5
+  - - 9
+    - 10
+  t5:
+  - - 1
+    - 2
+    - 3
+  - - 7
+    - 8
+    - 9
+  - - 14
+    - 15
+- prompt: A sneaker, a hiking boot, and a loafer side by side on a bench
+  subjects:
+  - sneaker
+  - hiking boot
+  - loafer
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+    - 11
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  - - 12
+    - 13
+- prompt: A trench coat and a leather jacket draped over a chair
+  subjects:
+  - trench coat
+  - leather jacket
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+- prompt: A quartz crystal, an amethyst, and a citrine displayed on black velvet
+  subjects:
+  - quartz crystal
+  - amethyst
+  - citrine
+  clip:
+  - - 2
+    - 3
+  - - 6
+  - - 10
+    - 11
+  t5:
+  - - 1
+    - 2
+  - - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+  - - 15
+    - 16
+- prompt: A maple leaf, a birch leaf, and an oak leaf resting on wet stone
+  subjects:
+  - maple leaf
+  - birch leaf
+  - oak leaf
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+    - 12
+  t5:
+  - - 1
+    - 2
+  - - 7
+    - 8
+    - 9
+  - - 13
+    - 14
+- prompt: A red chili, a green chili, and a yellow chili on a cutting board
+  subjects:
+  - red chili
+  - green chili
+  - yellow chili
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+    - 12
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  - - 12
+    - 13
+- prompt: A portobello mushroom and a shiitake mushroom on a cast-iron skillet
+  subjects:
+  - portobello mushroom
+  - shiitake mushroom
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+    - 8
+    - 9
+  t5:
+  - - 1
+    - 2
+    - 3
+    - 4
+    - 5
+  - - 10
+    - 11
+    - 12
+    - 13
+- prompt: A croissant, a pain au chocolat, and an almond croissant on a slate plate
+  subjects:
+  - croissant
+  - pain au chocolat
+  - almond croissant
+  clip:
+  - - 2
+  - - 5
+    - 6
+    - 7
+  - - 11
+    - 12
+  t5:
+  - - 1
+  - - 5
+    - 6
+    - 7
+  - - 11
+    - 12
+- prompt: A latte, a cappuccino, and an espresso served on a wooden tray
+  subjects:
+  - latte
+  - cappuccino
+  - espresso
+  clip:
+  - - 2
+  - - 5
+  - - 9
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+    - 9
+    - 10
+  - - 14
+- prompt: A chess king, a queen, and a rook carved from dark ebony
+  subjects:
+  - chess king
+  - queen
+  - rook
+  clip:
+  - - 2
+    - 3
+  - - 6
+  - - 10
+  t5:
+  - - 2
+    - 3
+    - 4
+    - 5
+  - - 9
+  - - 15
+    - 16
+    - 17
+- prompt: A tennis ball, a baseball, and a cricket ball lined up on the grass
+  subjects:
+  - tennis ball
+  - baseball
+  - cricket ball
+  clip:
+  - - 2
+    - 3
+  - - 6
+  - - 10
+    - 11
+  t5:
+  - - 1
+    - 2
+  - - 6
+  - - 11
+    - 12
+- prompt: A surfboard, a bodyboard, and a shortboard leaning against a dune fence
+  subjects:
+  - surfboard
+  - bodyboard
+  - shortboard
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+    - 12
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  - - 12
+    - 13
+- prompt: A red umbrella and a yellow umbrella drying in a hallway
+  subjects:
+  - red umbrella
+  - yellow umbrella
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+- prompt: A calico cat and a tabby cat sharing a sunbeam on the floor
+  subjects:
+  - calico cat
+  - tabby cat
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+    - 4
+  - - 8
+    - 9
+    - 10
+- prompt: A barn owl, a snowy owl, and a great horned owl perched in a rustic loft
+  subjects:
+  - barn owl
+  - snowy owl
+  - great horned owl
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+    - 12
+    - 13
+  t5:
+  - - 1
+    - 2
+    - 3
+    - 4
+  - - 8
+    - 9
+    - 10
+    - 11
+    - 12
+  - - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+- prompt: An astronaut, a violin, and a sunflower floating inside a space station
+    module
+  subjects:
+  - astronaut
+  - violin
+  - sunflower
+  clip:
+  - - 2
+  - - 5
+  - - 9
+  t5:
+  - - 1
+  - - 5
+  - - 10
+- prompt: A skateboard, a tuxedo cat, and a bowl of ramen under neon lights
+  subjects:
+  - skateboard
+  - tuxedo cat
+  - bowl of ramen
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+    - 11
+    - 12
+  t5:
+  - - 1
+    - 2
+  - - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+  - - 17
+    - 18
+    - 19
+    - 20
+    - 21
+- prompt: A lighthouse, a red umbrella, and a paper boat on a stormy pier
+  subjects:
+  - lighthouse
+  - red umbrella
+  - paper boat
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+    - 11
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  - - 12
+    - 13
+- prompt: A panda, a typewriter, and a bonsai on a wooden desk
+  subjects:
+  - panda
+  - typewriter
+  - bonsai
+  clip:
+  - - 2
+  - - 5
+  - - 9
+  t5:
+  - - 1
+    - 2
+    - 3
+  - - 7
+    - 8
+  - - 13
+    - 14
+    - 15
+    - 16
+- prompt: A ballerina, a vintage camera, and a goldfish bowl by a window
+  subjects:
+  - ballerina
+  - vintage camera
+  - goldfish bowl
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+    - 11
+  t5:
+  - - 1
+    - 2
+    - 3
+  - - 7
+    - 8
+  - - 13
+    - 14
+    - 15
+- prompt: A hot-air balloon, a cello, and a chocolate cake in a meadow at dawn
+  subjects:
+  - hot-air balloon
+  - cello
+  - chocolate cake
+  clip:
+  - - 2
+    - 3
+    - 4
+    - 5
+  - - 8
+  - - 12
+    - 13
+  t5:
+  - - 1
+    - 2
+    - 3
+    - 4
+  - - 8
+    - 9
+  - - 14
+    - 15
+- prompt: A fox, a lantern, and a teapot in a misty forest clearing
+  subjects:
+  - fox
+  - lantern
+  - teapot
+  clip:
+  - - 2
+  - - 5
+  - - 9
+  t5:
+  - - 2
+  - - 6
+  - - 11
+    - 12
+- prompt: A chess board, a lemon, and a bluejay on a patio table
+  subjects:
+  - chess board
+  - lemon
+  - bluejay
+  clip:
+  - - 2
+    - 3
+  - - 6
+  - - 10
+    - 11
+  t5:
+  - - 2
+    - 3
+    - 4
+  - - 8
+  - - 13
+    - 14
+    - 15
+- prompt: A robot, a cactus, and a watercolor palette on a concrete floor
+  subjects:
+  - robot
+  - cactus
+  - watercolor palette
+  clip:
+  - - 2
+  - - 5
+  - - 9
+    - 10
+  t5:
+  - - 1
+  - - 6
+    - 7
+    - 8
+  - - 13
+    - 14
+- prompt: A flamingo, a suitcase, and a beach umbrella on pale sand
+  subjects:
+  - flamingo
+  - suitcase
+  - beach umbrella
+  clip:
+  - - 2
+  - - 5
+  - - 9
+    - 10
+  t5:
+  - - 2
+    - 3
+    - 4
+  - - 8
+  - - 13
+    - 14
+- prompt: A sailboat, a bicycle, and a stack of books beside a canal
+  subjects:
+  - sailboat
+  - bicycle
+  - stack of books
+  clip:
+  - - 2
+    - 3
+  - - 6
+  - - 10
+    - 11
+    - 12
+  t5:
+  - - 1
+    - 2
+  - - 6
+  - - 11
+    - 12
+    - 13
+- prompt: A violinist, a snow globe, and a steaming mug in a cozy cabin
+  subjects:
+  - violinist
+  - snow globe
+  - steaming mug
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+    - 11
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  - - 12
+    - 13
+    - 14
+    - 15
+- prompt: A jellyfish, a lighthouse, and a pocket watch suspended in seawater
+  subjects:
+  - jellyfish
+  - lighthouse
+  - pocket watch
+  clip:
+  - - 2
+  - - 5
+  - - 9
+    - 10
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  - - 12
+    - 13
+- prompt: A raccoon, a pizza box, and a traffic cone under a streetlamp
+  subjects:
+  - raccoon
+  - pizza box
+  - traffic cone
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+    - 11
+  t5:
+  - - 2
+    - 3
+    - 4
+  - - 8
+    - 9
+  - - 14
+    - 15
+- prompt: A polar bear, a red scarf, and a thermos on drifting ice
+  subjects:
+  - polar bear
+  - red scarf
+  - thermos
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+    - 12
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+  - - 13
+    - 14
+- prompt: A crane bird, a paint roller, and a vintage radio in a white studio
+  subjects:
+  - crane bird
+  - paint roller
+  - vintage radio
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+    - 12
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  - - 12
+    - 13
+- prompt: A dragon, a chess knight, and a lantern in a stone hallway
+  subjects:
+  - dragon
+  - chess knight
+  - lantern
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+  t5:
+  - - 1
+  - - 6
+    - 7
+    - 8
+  - - 13
+- prompt: A chef, a pineapple, and a copper pan in a sunlit kitchen
+  subjects:
+  - chef
+  - pineapple
+  - copper pan
+  clip:
+  - - 2
+  - - 5
+  - - 9
+    - 10
+  t5:
+  - - 1
+  - - 5
+  - - 10
+    - 11
+- prompt: A snowboard, a telescope, and a husky on a snowy ridge
+  subjects:
+  - snowboard
+  - telescope
+  - husky
+  clip:
+  - - 2
+  - - 5
+  - - 9
+  t5:
+  - - 1
+  - - 5
+  - - 11
+    - 12
+- prompt: A violin, a rose, and a glass of red wine on a velvet tablecloth
+  subjects:
+  - violin
+  - rose
+  - glass of red wine
+  clip:
+  - - 2
+  - - 5
+  - - 9
+    - 10
+    - 11
+    - 12
+  t5:
+  - - 1
+  - - 5
+  - - 10
+    - 11
+    - 12
+    - 13
+- prompt: A chameleon, a wristwatch, and a paper crane on a mossy rock
+  subjects:
+  - chameleon
+  - wristwatch
+  - paper crane
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+    - 11
+  t5:
+  - - 2
+    - 3
+    - 4
+  - - 8
+    - 9
+  - - 14
+    - 15
+- prompt: A microscope, a sunflower, and a blue butterfly on a lab bench
+  subjects:
+  - microscope
+  - sunflower
+  - blue butterfly
+  clip:
+  - - 2
+  - - 5
+  - - 9
+    - 10
+  t5:
+  - - 1
+  - - 5
+  - - 10
+    - 11
+- prompt: A gold retriever, a soccer ball, and a sprinkler on a lawn
+  subjects:
+  - gold retriever
+  - soccer ball
+  - sprinkler
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+  t5:
+  - - 1
+    - 2
+    - 3
+  - - 7
+    - 8
+  - - 13
+    - 14
+- prompt: A kangaroo, a picnic basket, and a kite on a windy hill
+  subjects:
+  - kangaroo
+  - picnic basket
+  - kite
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+  t5:
+  - - 2
+    - 3
+    - 4
+    - 5
+  - - 9
+    - 10
+  - - 15
+    - 16
+- prompt: A cello, a bonsai, and a ceramic teacup in a quiet teahouse
+  subjects:
+  - cello
+  - bonsai
+  - ceramic teacup
+  clip:
+  - - 2
+  - - 5
+  - - 9
+    - 10
+    - 11
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+    - 8
+    - 9
+  - - 14
+    - 15
+    - 16
+- prompt: A mountain goat, a red tent, and a campfire beneath the stars
+  subjects:
+  - mountain goat
+  - red tent
+  - campfire
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  - - 12
+    - 13
+- prompt: A flamingo, a yoga mat, and a gramophone on a rooftop at sunset
+  subjects:
+  - flamingo
+  - yoga mat
+  - gramophone
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+    - 11
+  t5:
+  - - 2
+    - 3
+    - 4
+  - - 8
+    - 9
+  - - 15
+    - 16
+    - 17
+- prompt: A samovar, a Matryoshka doll, and a tabby cat on a lace table
+  subjects:
+  - samovar
+  - Matryoshka doll
+  - tabby cat
+  clip:
+  - - 2
+    - 3
+    - 4
+  - - 7
+    - 8
+    - 9
+    - 10
+  - - 14
+    - 15
+  t5:
+  - - 2
+    - 3
+    - 4
+    - 5
+  - - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+  - - 20
+    - 21
+    - 22
+- prompt: A scuba diver, a treasure chest, and a sea turtle near a reef
+  subjects:
+  - scuba diver
+  - treasure chest
+  - sea turtle
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+    - 12
+  t5:
+  - - 2
+    - 3
+    - 4
+  - - 8
+    - 9
+  - - 14
+    - 15
+- prompt: A windmill, a picnic blanket, and a bicycle with a basket of tulips
+  subjects:
+  - windmill
+  - picnic blanket
+  - bicycle with a basket of tulips
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  - - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+- prompt: A snowman, a violin case, and a bright red mailbox on a village street
+  subjects:
+  - snowman
+  - violin case
+  - bright red mailbox
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+    - 11
+    - 12
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  - - 12
+    - 13
+    - 14
+- prompt: A peacock, a fountain pen, and a silk scarf on a marble table
+  subjects:
+  - peacock
+  - fountain pen
+  - silk scarf
+  clip:
+  - - 2
+    - 3
+    - 4
+  - - 7
+    - 8
+  - - 12
+    - 13
+  t5:
+  - - 1
+    - 2
+    - 3
+  - - 7
+    - 8
+  - - 13
+    - 14
+- prompt: A lighthouse keeper, a thermos, and a tabby cat during a rainstorm
+  subjects:
+  - lighthouse keeper
+  - thermos
+  - tabby cat
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+    - 12
+  t5:
+  - - 1
+    - 2
+    - 3
+    - 4
+  - - 8
+    - 9
+  - - 14
+    - 15
+    - 16
+- prompt: A magician, a white rabbit, and a deck of cards on a velvet stage
+  subjects:
+  - magician
+  - white rabbit
+  - deck of cards
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+    - 11
+    - 12
+  t5:
+  - - 1
+  - - 5
+    - 6
+  - - 11
+    - 12
+    - 13
+- prompt: A bonsai, a koi fish, and a paper fan beside a stone lantern
+  subjects:
+  - bonsai
+  - koi fish
+  - paper fan
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+    - 11
+  t5:
+  - - 1
+    - 2
+    - 3
+    - 4
+  - - 9
+    - 10
+    - 11
+    - 12
+  - - 17
+    - 18
+- prompt: A panda, a bamboo steamer, and a porcelain teapot on a low table
+  subjects:
+  - panda
+  - bamboo steamer
+  - porcelain teapot
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+    - 11
+  t5:
+  - - 1
+    - 2
+    - 3
+  - - 7
+    - 8
+    - 9
+  - - 14
+    - 15
+    - 16
+- prompt: A violin, a lighthouse, a fox, and a scarlet umbrella at the shoreline
+  subjects:
+  - violin
+  - lighthouse
+  - fox
+  - scarlet umbrella
+  clip:
+  - - 2
+  - - 5
+  - - 8
+  - - 12
+    - 13
+  t5:
+  - - 1
+  - - 5
+    - 6
+  - - 11
+  - - 16
+    - 17
+    - 18
+- prompt: A courier bike, a croissant, and a newspaper outside a café
+  subjects:
+  - courier bike
+  - croissant
+  - newspaper
+  clip:
+  - - 2
+    - 3
+  - - 6
+  - - 10
+  t5:
+  - - 1
+    - 2
+  - - 6
+  - - 11
+- prompt: A lemur, a telescope, and a stack of postcards in a treehouse
+  subjects:
+  - lemur
+  - telescope
+  - stack of postcards
+  clip:
+  - - 2
+    - 3
+  - - 6
+  - - 10
+    - 11
+    - 12
+  t5:
+  - - 1
+    - 2
+  - - 6
+  - - 11
+    - 12
+    - 13
+    - 14
+- prompt: A jelly donut, a cactus, and a ceramic rooster on a kitchen shelf
+  subjects:
+  - jelly donut
+  - cactus
+  - ceramic rooster
+  clip:
+  - - 2
+    - 3
+  - - 6
+  - - 10
+    - 11
+  t5:
+  - - 1
+    - 2
+    - 3
+  - - 8
+    - 9
+    - 10
+  - - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+- prompt: A heron, a bamboo flute, and a lantern by a misty pond
+  subjects:
+  - heron
+  - bamboo flute
+  - lantern
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  - - 12
+- prompt: A painter, a foxglove, and an easel by a cliffside path
+  subjects:
+  - painter
+  - foxglove
+  - easel
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+    - 11
+  t5:
+  - - 1
+    - 2
+  - - 7
+    - 8
+    - 9
+  - - 13
+    - 14
+- prompt: A violin, a bonsai, and a calligraphy brush on tatami mats
+  subjects:
+  - violin
+  - bonsai
+  - calligraphy brush
+  clip:
+  - - 2
+  - - 5
+  - - 9
+    - 10
+  t5:
+  - - 1
+  - - 5
+    - 6
+    - 7
+    - 8
+  - - 13
+    - 14
+    - 15
+    - 16
+- prompt: A soccer ball, a jellyfish lamp, and a houseplant in a dorm room
+  subjects:
+  - soccer ball
+  - jellyfish lamp
+  - houseplant
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+    - 12
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+    - 8
+  - - 13
+    - 14
+- prompt: A tortoise, a sunflower, and a watering can in a backyard
+  subjects:
+  - tortoise
+  - sunflower
+  - watering can
+  clip:
+  - - 2
+  - - 5
+  - - 9
+    - 10
+  t5:
+  - - 1
+    - 2
+    - 3
+    - 4
+  - - 8
+  - - 13
+    - 14
+    - 15
+- prompt: A bluetit, a croissant, and a porcelain cup on a balcony rail
+  subjects:
+  - bluetit
+  - croissant
+  - porcelain cup
+  clip:
+  - - 2
+    - 3
+  - - 6
+  - - 10
+    - 11
+  t5:
+  - - 1
+    - 2
+    - 3
+  - - 7
+  - - 12
+    - 13
+- prompt: A courier, a stack of parcels, and a border collie at a doorway
+  subjects:
+  - courier
+  - stack of parcels
+  - border collie
+  clip:
+  - - 2
+  - - 5
+    - 6
+    - 7
+  - - 11
+    - 12
+  t5:
+  - - 1
+  - - 5
+    - 6
+    - 7
+    - 8
+  - - 13
+    - 14
+    - 15
+- prompt: A meteor, a telescope, and a mug of cocoa on a hillside at night
+  subjects:
+  - meteor
+  - telescope
+  - mug of cocoa
+  clip:
+  - - 2
+  - - 5
+  - - 9
+    - 10
+    - 11
+  t5:
+  - - 1
+  - - 5
+  - - 11
+    - 12
+    - 13
+    - 14
+- prompt: A violinist, a fern, and a vintage suitcase on a train platform
+  subjects:
+  - violinist
+  - fern
+  - vintage suitcase
+  clip:
+  - - 2
+  - - 5
+  - - 9
+    - 10
+  t5:
+  - - 1
+    - 2
+  - - 7
+  - - 12
+    - 13
+- prompt: A jellyfish, a seashell, and a glass bottle drifting in turquoise water
+  subjects:
+  - jellyfish
+  - seashell
+  - glass bottle
+  clip:
+  - - 2
+  - - 5
+    - 6
+    - 7
+  - - 11
+    - 12
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  - - 12
+    - 13
+- prompt: A koala, a camera drone, and a picnic basket in eucalyptus shade
+  subjects:
+  - koala
+  - camera drone
+  - picnic basket
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+    - 11
+  t5:
+  - - 2
+    - 3
+    - 4
+    - 5
+  - - 9
+    - 10
+  - - 15
+    - 16
+- prompt: A chess clock, a marmalade cat, and a potted cactus on a sunny sill
+  subjects:
+  - chess clock
+  - marmalade cat
+  - potted cactus
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+    - 12
+  t5:
+  - - 2
+    - 3
+    - 4
+  - - 9
+    - 10
+    - 11
+    - 12
+  - - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+- prompt: A conductor, a metronome, and a grand piano in an empty hall
+  subjects:
+  - conductor
+  - metronome
+  - grand piano
+  clip:
+  - - 2
+  - - 5
+    - 6
+    - 7
+  - - 11
+    - 12
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+    - 8
+  - - 13
+    - 14
+- prompt: A lighthouse, a thermos, a wool blanket, and a border collie during sunrise
+  subjects:
+  - lighthouse
+  - thermos
+  - wool blanket
+  - border collie
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 9
+    - 10
+  - - 14
+    - 15
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  - - 11
+    - 12
+  - - 17
+    - 18
+    - 19
+- prompt: A red bicycle, a string of lanterns, and a corgi on a cobbled street
+  subjects:
+  - red bicycle
+  - string of lanterns
+  - corgi
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+    - 8
+  - - 12
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+    - 8
+    - 9
+  - - 14
+    - 15
+    - 16
+- prompt: A mooncake, a teapot, and a jade rabbit under paper lanterns
+  subjects:
+  - mooncake
+  - teapot
+  - jade rabbit
+  clip:
+  - - 2
+    - 3
+  - - 6
+  - - 10
+    - 11
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  - - 12
+    - 13
+    - 14
+- prompt: A saxophone, a cactus, and a bowling ball in a retro lounge
+  subjects:
+  - saxophone
+  - cactus
+  - bowling ball
+  clip:
+  - - 2
+  - - 5
+  - - 9
+    - 10
+  t5:
+  - - 2
+    - 3
+    - 4
+    - 5
+    - 6
+  - - 11
+    - 12
+    - 13
+  - - 18
+    - 19
+    - 20
+- prompt: A beekeeper, a honey jar, and a lavender bush by a wooden gate
+  subjects:
+  - beekeeper
+  - honey jar
+  - lavender bush
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+    - 12
+  t5:
+  - - 1
+    - 2
+    - 3
+  - - 7
+    - 8
+    - 9
+  - - 14
+    - 15
+- prompt: A pelican, a fishing net, and a red cooler on a pier
+  subjects:
+  - pelican
+  - fishing net
+  - red cooler
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+    - 11
+  t5:
+  - - 1
+    - 2
+    - 3
+  - - 7
+    - 8
+  - - 13
+    - 14
+- prompt: A violin, a raven, and a pocket watch on a stone windowsill
+  subjects:
+  - violin
+  - raven
+  - Pocket watch
+  clip:
+  - - 2
+  - - 5
+  - - 9
+    - 10
+  t5:
+  - - 1
+  - - 5
+    - 6
+  - - 11
+    - 12
+- prompt: A scarecrow, a pumpkin, and a lantern in a twilight field
+  subjects:
+  - scarecrow
+  - pumpkin
+  - lantern
+  clip:
+  - - 2
+  - - 5
+  - - 9
+  t5:
+  - - 1
+    - 2
+    - 3
+    - 4
+  - - 8
+  - - 13
+- prompt: A gondola, a bouquet of roses, and a tabby cat on a canal bridge
+  subjects:
+  - gondola
+  - bouquet of roses
+  - tabby cat
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+    - 8
+  - - 12
+    - 13
+  t5:
+  - - 2
+    - 3
+    - 4
+  - - 8
+    - 9
+    - 10
+    - 11
+  - - 16
+    - 17
+    - 18
+- prompt: A lighthouse, a paper kite, and a picnic basket on windswept dunes
+  subjects:
+  - lighthouse
+  - paper kite
+  - picnic basket
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+    - 11
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+    - 8
+  - - 13
+    - 14
+- prompt: A violin, a koi, and a cherry blossom branch over rippling water
+  subjects:
+  - violin
+  - koi
+  - cherry blossom branch
+  clip:
+  - - 2
+  - - 5
+  - - 9
+    - 10
+    - 11
+  t5:
+  - - 1
+  - - 6
+    - 7
+    - 8
+  - - 13
+    - 14
+    - 15
+- prompt: A barista, a latte art tulip, and a stack of novels by a window
+  subjects:
+  - barista
+  - latte art tulip
+  - stack of novels
+  clip:
+  - - 2
+  - - 5
+    - 6
+    - 7
+  - - 11
+    - 12
+    - 13
+  t5:
+  - - 1
+    - 2
+    - 3
+  - - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+  - - 19
+    - 20
+    - 21
+- prompt: A firefighter helmet, a dalmatian, and a brass bell in a brick station
+  subjects:
+  - firefighter helmet
+  - dalmatian
+  - brass bell
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+    - 12
+  t5:
+  - - 1
+    - 2
+    - 3
+    - 4
+  - - 9
+    - 10
+    - 11
+    - 12
+  - - 17
+    - 18
+- prompt: A snow owl, a compass, and a leather journal on frosted moss
+  subjects:
+  - snow owl
+  - compass
+  - leather journal
+  clip:
+  - - 2
+    - 3
+  - - 6
+  - - 10
+    - 11
+  t5:
+  - - 1
+    - 2
+    - 3
+    - 4
+  - - 9
+    - 10
+  - - 15
+    - 16
+- prompt: A traveling circus tent, a unicycle, and a bunch of balloons at dusk
+  subjects:
+  - traveling circus tent
+  - unicycle
+  - bunch of balloons
+  clip:
+  - - 2
+    - 3
+    - 4
+  - - 7
+    - 8
+  - - 12
+    - 13
+    - 14
+  t5:
+  - - 1
+    - 2
+    - 3
+  - - 7
+    - 8
+    - 9
+  - - 14
+    - 15
+    - 16
+    - 17
+- prompt: A lighthouse, a cello, and a red scarf beside crashing waves
+  subjects:
+  - lighthouse
+  - cello
+  - red scarf
+  clip:
+  - - 2
+  - - 5
+  - - 9
+    - 10
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  - - 12
+    - 13
+- prompt: A crow, a raven, and a blackbird perched on a foggy fence post
+  subjects:
+  - crow
+  - raven
+  - blackbird
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+  - - 13
+    - 14
+  clip:
+  - - 2
+  - - 5
+  - - 9
+- prompt: A Labrador, a Golden Retriever, and a German Shepherd playing in a backyard
+  subjects:
+  - Labrador
+  - Golden Retriever
+  - German Shepherd
+  t5:
+  - - 1
+    - 2
+    - 3
+  - - 7
+    - 8
+    - 9
+  - - 14
+    - 15
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 10
+    - 11
+- prompt: A horse, a bear, and a moose in a forest clearing
+  subjects:
+  - horse
+  - bear
+  - moose
+  t5:
+  - - 1
+  - - 5
+  - - 11
+    - 12
+  clip:
+  - - 2
+  - - 5
+  - - 9
+- prompt: A red car, a blue car, and a green car parked side by side on a city street
+  subjects:
+  - red car
+  - blue car
+  - green car
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  - - 12
+    - 13
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+    - 12
+- prompt: A black cat, an orange cat, and a white cat lounging on a windowsill
+  subjects:
+  - black cat
+  - orange cat
+  - white cat
+  t5:
+  - - 1
+    - 2
+  - - 5
+    - 6
+  - - 11
+    - 12
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  - - 11
+    - 12
+- prompt: A horse and a bear in a forest
+  subjects:
+  - horse
+  - bear
+  t5:
+  - - 1
+  - - 5
+  clip:
+  - - 2
+  - - 5
+- prompt: A lion and a tiger resting side by side in a jungle clearing
+  subjects:
+  - lion
+  - tiger
+  t5:
+  - - 2
+  - - 7
+    - 8
+  clip:
+  - - 2
+  - - 5
+- prompt: A violin and a viola on a wooden stage under soft spotlights
+  subjects:
+  - violin
+  - viola
+  t5:
+  - - 1
+  - - 6
+    - 7
+  clip:
+  - - 2
+  - - 5
+- prompt: A swan and a duck gliding together on a misty lake
+  subjects:
+  - swan
+  - duck
+  t5:
+  - - 2
+    - 3
+  - - 7
+  clip:
+  - - 2
+  - - 5
+- prompt: A jaguar and a leopard crouching in dense rainforest foliage
+  subjects:
+  - jaguar
+  - leopard
+  t5:
+  - - 1
+    - 2
+    - 3
+  - - 7
+  clip:
+  - - 2
+  - - 5
+- prompt: An apple and a pear hanging from adjacent branches in an orchard
+  subjects:
+  - apple
+  - pear
+  t5:
+  - - 1
+  - - 5
+    - 6
+  clip:
+  - - 2
+  - - 5
+- prompt: A maple leaf and an oak leaf lying on a forest floor covered in moss
+  subjects:
+  - maple leaf
+  - oak leaf
+  t5:
+  - - 1
+    - 2
+  - - 5
+    - 6
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+- prompt: A dolphin and a whale breaching near each other in the ocean
+  subjects:
+  - dolphin
+  - whale
+  t5:
+  - - 1
+  - - 5
+  clip:
+  - - 2
+  - - 5
+- prompt: A rabbit and a hare nibbling grass in a sunlit meadow
+  subjects:
+  - rabbit
+  - hare
+  t5:
+  - - 1
+  - - 6
+    - 7
+  clip:
+  - - 2
+  - - 5
+- prompt: A dachshund and a corgi sitting together on a cozy rug
+  subjects:
+  - dachshund
+  - corgi
+  t5:
+  - - 2
+    - 3
+    - 4
+    - 5
+  - - 9
+    - 10
+    - 11
+  clip:
+  - - 2
+  - - 5
+- prompt: A sparrow and a finch perched on a blossoming branch
+  subjects:
+  - sparrow
+  - finch
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  clip:
+  - - 2
+  - - 5
+- prompt: A sheep and a goat grazing in a misty pasture
+  subjects:
+  - sheep
+  - goat
+  t5:
+  - - 1
+  - - 5
+  clip:
+  - - 2
+  - - 5
+- prompt: A canoe and a kayak tied to a wooden dock at dawn
+  subjects:
+  - canoe
+  - kayak
+  t5:
+  - - 1
+    - 2
+    - 3
+  - - 7
+  clip:
+  - - 2
+  - - 5
+- prompt: A street bike and a dirt bike leaning against a garage wall
+  subjects:
+  - street bike
+  - dirt bike
+  t5:
+  - - 1
+    - 2
+  - - 6
+    - 7
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+- prompt: A sailboat and a yacht anchored in a calm harbor at sunset
+  subjects:
+  - sailboat
+  - yacht
+  t5:
+  - - 1
+    - 2
+  - - 6
+  clip:
+  - - 2
+    - 3
+  - - 6
+- prompt: A basketball and a soccer ball on a grassy field
+  subjects:
+  - basketball
+  - soccer ball
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 1
+  - - 5
+    - 6

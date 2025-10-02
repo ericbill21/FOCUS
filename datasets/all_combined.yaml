@@ -1,0 +1,79 @@
+- prompt: "A crow, a raven, and a blackbird perched on a foggy fence post"
+  t5: [[2, 3], [7, 8], [13, 14]]
+  clip: [[2], [5], [9]]
+
+- prompt: "A Labrador, a Golden Retriever, and a German Shepherd playing in a backyard"
+  t5: [[1, 2, 3], [7, 8, 9], [14, 15]]
+  clip: [[2], [5, 6], [10, 11]]
+
+- prompt: "A horse, a bear, and a moose in a forest clearing"
+  t5: [[1], [5], [12, 13]]
+  clip: [[2], [5], [9]]
+
+- prompt: "A red car, a blue car, and a green car parked side by side on a city street"
+  t5:  [[1, 2], [6, 7], [12, 13]]
+  clip: [[2, 3], [6, 7], [11, 12]]
+
+- prompt: "A black cat, an orange cat, and a white cat lounging on a windowsill"
+  t5: [[1, 2], [5, 6], [11, 12]]
+  clip: [[2, 3], [6, 7], [11, 12]]
+
+- prompt: "A horse and a bear in a forest"
+  t5: [[1], [5]]
+  clip: [[2], [5]]
+
+- prompt: "A lion and a tiger resting side by side in a jungle clearing"
+  t5: [[2], [7, 8]]
+  clip: [[2], [5]]
+
+- prompt: "A violin and a viola on a wooden stage under soft spotlights"
+  t5: [[1], [6, 7]]
+  clip: [[2], [5]]
+
+- prompt: "A swan and a duck gliding together on a misty lake"
+  t5: [[2, 3], [7]]
+  clip:  [[2], [5]]
+
+- prompt: "A jaguar and a leopard crouching in dense rainforest foliage"
+  t5: [[1, 2, 3], [7]]
+  clip: [[2], [5]]
+
+- prompt: "An apple and a pear hanging from adjacent branches in an orchard"
+  t5: [[1], [5, 6]]
+  clip: [[2], [5]]
+
+- prompt: "A maple leaf and an oak leaf lying on a forest floor covered in moss"
+  t5: [[1, 2], [5, 6]]
+  clip: [[2, 3], [6, 7]]
+
+- prompt: "A dolphin and a whale breaching near each other in the ocean"
+  t5: [[1], [5]]
+  clip: [[2], [5]]
+
+- prompt: "A rabbit and a hare nibbling grass in a sunlit meadow"
+  t5: [[1], [6, 7]]
+  clip: [[2], [5]]
+
+- prompt: "A dachshund and a corgi sitting together on a cozy rug"
+  t5: [[2, 3, 4, 5], [9, 10, 11]]
+  clip: [[2], [5]]
+
+- prompt: "A sparrow and a finch perched on a blossoming branch"
+  t5: [[1, 2], [6, 7]]
+  clip: [[2], [5]]
+
+- prompt: "A sheep and a goat grazing in a misty pasture"
+  t5: [[1], [5]]
+  clip: [[2], [5]]
+
+- prompt: "A canoe and a kayak tied to a wooden dock at dawn"
+  t5: [[1, 2, 3], [7]]
+  clip: [[2], [5]]
+
+- prompt: "A street bike and a dirt bike leaning against a garage wall"
+  t5: [[1, 2], [6, 7]]
+  clip: [[2, 3], [6, 7]]
+
+- prompt: "A sailboat and a yacht anchored in a calm harbor at sunset"
+  t5: [[1, 2], [6]]
+  clip: [[2, 3], [6]]

@@ -1,0 +1,3 @@
+- prompt: "A horse and a bear in a forest"
+  t5: [[1], [5]]
+  clip: [[2], [5]]

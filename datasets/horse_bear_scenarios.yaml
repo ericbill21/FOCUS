@@ -1,0 +1,15 @@
+- prompt: "A horse and a bear at the beach"
+  t5: [[1], [5]]
+  clip: [[2], [5]]
+
+- prompt: "A horse and a bear playing in the snow"
+  t5: [[1], [5]]
+  clip: [[2], [5]]
+
+- prompt: "A horse and a bear playing chess"
+  t5: [[1], [5]]
+  clip: [[2], [5]]
+
+- prompt: "A horse and a bear in the city"
+  t5: [[1], [5]]
+  clip: [[2], [5]]
