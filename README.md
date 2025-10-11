@@ -40,7 +40,7 @@ git clone https://github.com/ericbill21/FOCUS.git
 cd FOCUS
 
 # Install dependencies
-pip install -r requirements.txt  # if provided
+pip install -r requirements.txt
 ```
 
 > **Note:** The example notebooks rely on the official SD3 / FLUX pipelines with a small wrapper to accept the `Controller` object.
