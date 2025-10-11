@@ -1,6 +1,6 @@
 # FOCUS: A Principled Route to Multi‑Subject Fidelity
 
-[![Project Website](https://img.shields.io/badge/Project-Website-green)](https://ericbill21.github.io/FOCUS/) [![arXiv](https://img.shields.io/badge/arXiv-2505.19166-b31b1b.svg)](https://arxiv.org/abs/2505.19166)
+[![Project Website](https://img.shields.io/badge/Project-Website-green)](https://ericbill21.github.io/FOCUS/) [![arXiv](https://img.shields.io/badge/arXiv-2510.02315-b31b1b.svg)](https://arxiv.org/abs/2510.02315)
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ericbill21/">Eric Tillmann Bill</a>,
