@@ -10,7 +10,7 @@ class Controller:
     def __init__(
         self,
         model: str = "SD3",
-        method: str = "focus",
+        heuristic: str = "focus",
         lambda_scale: float = 1.0,
         t5_ids: List[List[int]] = [[[]]],
         clip_ids: List[List[int]] = [[[]]],
@@ -37,7 +37,7 @@ class Controller:
 
         # Store hyperparameters
         self.lambda_scale = lambda_scale
-        self.method = method
+        self.heuristic = heuristic
         self.model = model
 
         # Process token IDs and initialize storage
@@ -105,6 +105,8 @@ class Controller:
             self.token_groups.append(token_group)
             self.label_groups.append(label_group)
         
+        self.previous_storage = [[] for _ in range(len(self.storage))]
+
     def is_active(self) -> bool:
         """Check if storage is active."""
         return self.activated

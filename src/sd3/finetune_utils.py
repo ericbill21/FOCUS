@@ -8,6 +8,7 @@ from diffusers.schedulers import FlowMatchEulerDiscreteScheduler
 from diffusers.schedulers.scheduling_flow_match_euler_discrete import FlowMatchEulerDiscreteSchedulerOutput
 
 from src.controller import Controller
+from src.utils import append_dims
 
 
 class MemorylessFlowMatchScheduler(FlowMatchEulerDiscreteScheduler):

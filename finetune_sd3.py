@@ -19,8 +19,8 @@ from diffusers import SD3Transformer2DModel
 from peft import LoraConfig, get_peft_model
 
 from src.sd3.attention_processor import SD3AttnProcessor
-from src.sd3.fintune import MemorylessFlowMatchScheduler, MemorylessSDESolver, LeanAdjoinSolver
-from src.sd3.controller import Controller
+from src.sd3.finetune_utils import MemorylessFlowMatchScheduler, MemorylessSDESolver, LeanAdjoinSolver
+from src.controller import Controller
 from src.utils import append_dims, sample_time_indices
 from src.data import PromptDataset
 
@@ -79,7 +79,7 @@ def main(args):
     
     # Prepare memoryless scheduler, which inherits from the SD3.5 scheduler
     scheduler = MemorylessFlowMatchScheduler.from_pretrained(
-        "/home/jupyter/models_adjoint/stable-diffusion-3.5-medium",
+        "stabilityai/stable-diffusion-3.5-medium",
         subfolder="scheduler",
         torch_dtype=dtype,
     )
@@ -87,7 +87,7 @@ def main(args):
 
     # Prepare the base velocity and finetune velocity models
     transformer_base = SD3Transformer2DModel.from_pretrained(
-        "/home/jupyter/models_adjoint/stable-diffusion-3.5-medium",
+        "stabilityai/stable-diffusion-3.5-medium",
         subfolder="transformer",
         torch_dtype=dtype,
     ).to(device)
@@ -96,7 +96,7 @@ def main(args):
     # transformer_base.enable_gradient_checkpointing()
 
     transformer_fine = SD3Transformer2DModel.from_pretrained(
-        "/home/jupyter/models_adjoint/stable-diffusion-3.5-medium",
+        "stabilityai/stable-diffusion-3.5-medium",
         subfolder="transformer",
         torch_dtype=dtype,
     ).to(device)
@@ -136,7 +136,7 @@ def main(args):
     adj_solver = LeanAdjoinSolver(transformer_base, scheduler, g)
 
     # Install Controller module, as the Controller loss will be used as the running cost f(xt)
-    controller = Controller(model="SD3")
+    controller = Controller(model="FLUX", heuristic=args.heuristic)
 
     for block in transformer_fine.transformer_blocks:   
         block.attn.set_processor(SD3AttnProcessor(controller))
@@ -331,6 +331,7 @@ if __name__ == "__main__":
     parser.add_argument("--num-traj", type=int, default=5, help="Number of trajectories to sample per iteration")
     parser.add_argument("--k", type=int, default=28, help="Number of time steps for the ODE solver")
     parser.add_argument("--lambda-value", type=float, default=1.0, help="Lambda value for the reward function")
+    parser.add_argument("--heuristic", type=str, choices=["focus", "conform", "attend_and_excite", "divide_and_bind", "jedi"], default="focus", help="Controller heuristic to use")
     
     parser.add_argument("--sub-start", type=int, default=0, help="Start index for subsampling time steps")
     parser.add_argument("--sub-end", type=int, default=0, help="End index for subsampling time steps")

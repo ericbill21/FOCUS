@@ -96,7 +96,7 @@ def main(args):
                 t5_ids=datum["t5"],
                 clip_ids=datum["clip"],
                 lambda_scale=args.lambda_scale,
-                method=args.method,
+                heuristic=args.heuristic,
                 model=args.model
             )
 
@@ -111,10 +111,8 @@ def main(args):
                 controller=optim if args.lambda_scale != 0 else None,
             ).images[0]
 
-            if args.t2i:
-                image_path = os.path.join(exp_dir, f"{datum['prompt']}_{seed:06d}.png")
-            else:
-                image_path = os.path.join(exp_dir, f"image_{image_counter}.png")
+        
+            image_path = os.path.join(exp_dir, f"image_{image_counter}.png")
 
             output_paths.append({
                 "image_path" : image_path,
@@ -144,11 +142,10 @@ if __name__ == "__main__":
 
     # JEDI parameters
     parser.add_argument("--lambda-scale", type=float, default=1, help="Lambda scaling factor for Controller, set to 0 to disable Controller")
-    parser.add_argument("--method", type=str, choices=["focus", "conform", "attend_and_excite", "divide_and_bind", "jedi"], default="focus", help="Controller method to use")
+    parser.add_argument("--heuristic", type=str, choices=["focus", "conform", "attend_and_excite", "divide_and_bind", "jedi"], default="focus", help="Controller method to use")
     parser.add_argument("--model", type=str, choices=["SD3", "FLUX"], default="SD3", help="Base model to use")
 
     parser.add_argument("--save-memory", type=int, choices=[0, 1, 2, 3], default=0, help="Memory saving mode: 0 (none), 1 (offload), 2 (sequential offload), 3 (sequential + grad checkpointing)")
-    parser.add_argument("--t2i", action="store_true", help="Use T2I output format")
     
     args = parser.parse_args()
     main(args)

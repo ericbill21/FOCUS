@@ -110,14 +110,14 @@ def main(args):
         yaml.dump(vars(args), f)
     
     scheduler = MemorylessFlowMatchScheduler.from_pretrained(
-        "/home/jupyter/models_adjoint/FLUX.1-dev",
+        "black-forest-labs/FLUX.1-dev",
         subfolder="scheduler",
         torch_dtype=dtype,
     )
 
     # Prepare the base velocity and finetune velocity models
     transformer_base = FluxTransformer2DModel.from_pretrained(
-        "/home/jupyter/models_adjoint/FLUX.1-dev",
+        "black-forest-labs/FLUX.1-dev",
         subfolder="transformer",
         torch_dtype=dtype,
     ).to(device)
@@ -126,7 +126,7 @@ def main(args):
     # transformer_base.enable_gradient_checkpointing()
 
     transformer_fine = FluxTransformer2DModel.from_pretrained(
-        "/home/jupyter/models_adjoint/FLUX.1-dev",
+        "black-forest-labs/FLUX.1-dev",
         subfolder="transformer",
         torch_dtype=dtype,
     ).to(device)
@@ -166,7 +166,7 @@ def main(args):
     adj_solver = LeanAdjoinSolver(transformer_base, scheduler, g)
 
     # Install Controller module, as the Controller loss will be used as the running cost f(xt)
-    controller = Controller(model="FLUX")
+    controller = Controller(model="FLUX", heuristic=args.heuristic)
 
     for block in transformer_fine.transformer_blocks:   
         block.attn.set_processor(FluxAttnProcessor(controller))
@@ -389,6 +389,7 @@ if __name__ == "__main__":
     parser.add_argument("--num-traj", type=int, default=5, help="Number of trajectories to sample per iteration (reduced for speed)")
     parser.add_argument("--k", type=int, default=28, help="Number of time steps for the ODE solver (reduced for speed)")
     parser.add_argument("--lambda-value", type=float, default=1.0, help="Lambda value for the reward function")
+    parser.add_argument("--heuristic", type=str, choices=["focus", "conform", "attend_and_excite", "divide_and_bind", "jedi"], default="focus", help="Controller heuristic to use")
     
     parser.add_argument("--sub-start", type=int, default=0, help="Start index for subsampling time steps")
     parser.add_argument("--sub-end", type=int, default=0, help="End index for subsampling time steps")

@@ -54,7 +54,7 @@ We provide two simple notebooks to run FOCUS **without changing model weights**:
 - `sample_sd3_otf.ipynb` (Stable Diffusion 3.5)
 - `sample_flux_otf.ipynb` (FLUX‑1 [dev])
 
-Each pipeline is a lightly modified copy of the official implementation to accept a `Controller` that specifies the method, λ (lambda), and subject indices.
+Each pipeline is a lightly modified copy of the official implementation to accept a `Controller` that specifies the heuristic, λ (lambda), and subject indices.
 
 ```python
 from focus.controller import Controller
@@ -63,7 +63,7 @@ controller = Controller(
     t5_ids=[[1], [5]],      # indices of prompt subjects in the T5 encoder
     clip_ids=[[2], [5]],    # indices of prompt subjects in the CLIP encoder
     lambda_scale=4.0,
-    method="focus",        # one of: "focus", "conform", "attend_and_excite", "divide_and_bind"
+    heuristic="focus",        # one of: "focus", "conform", "attend_and_excite", "divide_and_bind"
     model="SD3"            # "SD3" or "FLUX"
 )
 
@@ -135,7 +135,7 @@ python finetune_sd3.py \
 | Seeds | `--seed` | 0 | Single seed |
 |  | `--seed-range` | – | Range `[a b]` to sweep multiple seeds |
 | Controller | `--lambda-scale` | 1.0 | λ for controller; set `0` to disable |
-|  | `--method` | focus | One of {focus, conform, attend_and_excite, divide_and_bind} |
+|  | `--heuristic` | focus | One of {focus, conform, attend_and_excite, divide_and_bind} |
 |  | `--model` | SD3 | Base model: {SD3, FLUX} |
 | Memory | `--save-memory` | 0 | 0: none, 1: offload, 2: sequential offload, 3: + grad checkpointing |
 
@@ -144,7 +144,7 @@ python finetune_sd3.py \
 python sample.py \
   --dataset datasets/natural_prompts.yaml \
   --exp-dir outputs/sd3_focus \
-  --model SD3 --method focus --lambda-scale 4 \
+  --model SD3 --heuristic focus --lambda-scale 4 \
   --image-size 512 --seed-range 0 10
 ```
 
@@ -177,7 +177,7 @@ We plan to release the checkpoints of our best performing fine‑tuned models on
 
 ## Troubleshooting
 - **OOM / CUDA out of memory**: reduce `--image-size`, use `--save-memory 2` or `3`, or reduce `--k` / `--num-traj`.
-- **No improvement from controller**: tune `--lambda-scale`, verify subject indices (`t5_ids`, `clip_ids`), and try alternative methods (`conform`, `attend_and_excite`, `divide_and_bind`).
+- **No improvement from controller**: tune `--lambda-scale`, verify subject indices (`t5_ids`, `clip_ids`), and try alternative heuristics (`conform`, `attend_and_excite`, `divide_and_bind`).
 - **Slow sampling**: decrease steps, enable memory‑saving modes, or disable gradient‑heavy options in notebooks.
 ---
 
