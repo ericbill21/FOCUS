@@ -3,7 +3,7 @@
 [![Project Website](https://img.shields.io/badge/Project-Website-green)](https://ericbill21.github.io/FOCUS/) [![arXiv](https://img.shields.io/badge/arXiv-2510.02315-b31b1b.svg)](https://arxiv.org/abs/2510.02315) [![HF SD3.5 + FOCUS](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-SD3.5+FOCUS-yellow)](https://huggingface.co/ericbill21/sd35_focus) [![HF FLUX + FOCUS](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FLUX.1+FOCUS-yellow)](https://huggingface.co/ericbill21/flux_focus) 
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/ericbill21/">Eric Tillmann Bill</a>,
+  <a href="https://ericbill.me">Eric Tillmann Bill</a>,
   <a href="https://enis.dev/">Enis Simsar</a>,
   <a href="https://da.inf.ethz.ch/people/ThomasHofmann">Thomas Hofmann</a>
 </p>
