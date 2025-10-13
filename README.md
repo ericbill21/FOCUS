@@ -79,6 +79,9 @@ controller = Controller(
 
 We provide two training scripts (one per base model). Both follow the same logic.
 
+### Inference on FOCUS+Fine-tuning
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ericbill21/FOCUS/blob/main/demo_finetuning.ipynb)
+
 ### Effective Batch Size
 Let **`num_traj`** be the number of trajectories per iteration and **`k`** the length (time steps) of each trajectory. The **effective batch size** is `num_traj × k`. We further sub‑sample time steps via `sub-start`, `sub-end`, and `sub-extra` to reduce memory and avoid overfitting.
 
