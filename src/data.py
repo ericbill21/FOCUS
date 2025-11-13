@@ -2,7 +2,7 @@ from typing import Any, Callable, Dict, Iterable, Optional, Sequence, Tuple
 
 import yaml
 from tqdm.notebook import tqdm
-from diffusers import StableDiffusion3Pipeline
+from diffusers import StableDiffusion3Pipeline, FluxPipeline
 
 import torch
 from torch.utils.data import Dataset, DataLoader
@@ -55,30 +55,56 @@ class PromptDataset(Dataset):
         }
 
 @torch.no_grad()
-def encode_prompts(path):
+def encode_prompts(path, model="SD3"):
     dataset = yaml.safe_load(open(path, "r"))
 
-    pipe = StableDiffusion3Pipeline.from_pretrained(
-        "stabilityai/stable-diffusion-3.5-medium", 
-        torch_dtype=torch.bfloat16
-    )
-    pipe.enable_model_cpu_offload()
 
-    prompt_ls, pooled_ls, t5_ls, clip_ls = [], [], [], []
-
-    for data in tqdm(dataset):
-        prompt_emb, _, pooled_emb, _ = pipe.encode_prompt(
-            prompt = data["prompt"],
-            prompt_2 = data["prompt"],
-            prompt_3 = data["prompt"],
-            do_classifier_free_guidance=False,
-            max_sequence_length=77,
+    if model == "SD3":
+        pipe = StableDiffusion3Pipeline.from_pretrained(
+            "stabilityai/stable-diffusion-3.5-medium", 
+            torch_dtype=torch.bfloat16
         )
+        pipe.enable_model_cpu_offload()
 
-        prompt_ls.append(prompt_emb.cpu())
-        pooled_ls.append(pooled_emb.cpu())
-        t5_ls.append(data["t5"])
-        clip_ls.append(data["clip"])
+        prompt_ls, pooled_ls, t5_ls, clip_ls = [], [], [], []
+        for data in tqdm(dataset):
+            prompt_emb, _, pooled_emb, _ = pipe.encode_prompt(
+                prompt = data["prompt"],
+                prompt_2 = data["prompt"],
+                prompt_3 = data["prompt"],
+                do_classifier_free_guidance=False,
+                max_sequence_length=77,
+            )
+
+            prompt_ls.append(prompt_emb.cpu())
+            pooled_ls.append(pooled_emb.cpu())
+            t5_ls.append(data["t5"])
+            clip_ls.append(data["clip"])
+
+
+    elif model == "FLUX":
+        pipe = FluxPipeline.from_pretrained(
+            "black-forest-labs/FLUX.1-dev", 
+            torch_dtype=torch.bfloat16
+        )
+        pipe.enable_model_cpu_offload()
+
+        prompt_ls, pooled_ls, t5_ls, clip_ls = [], [], [], []
+        for data in tqdm(dataset, desc="Encoding prompts..."):
+            prompt_emb, pooled_emb, _ = pipe.encode_prompt(
+                prompt=data["prompt"],
+                prompt_2=data["prompt"],
+                max_sequence_length=256,
+            )
+
+
+            prompt_ls.append(prompt_emb.cpu())
+            pooled_ls.append(pooled_emb.cpu())
+            t5_ls.append(data["t5"])
+            clip_ls.append(data["clip"])
+
+    else:
+        raise ValueError(f"Unknown model: {model}")
 
     torch.save({
         "prompt_emb": prompt_ls,

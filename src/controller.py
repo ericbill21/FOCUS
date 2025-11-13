@@ -1,6 +1,14 @@
 from typing import List, Optional, Tuple, Union
 
-from .losses import controller_loss, conform_loss, attend_and_excite_loss, divide_and_bind_loss, jedi_loss
+from .losses import (
+    controller_loss, 
+    conform_loss, 
+    attend_and_excite_loss,
+    divide_and_bind_loss, 
+    jedi_loss,
+    self_cross_guidance_loss,
+    enmmdt_loss,
+)
 
 import torch
 import torch.nn.functional as F
@@ -53,6 +61,7 @@ class Controller:
             self.token_groups.append(token_group)
             self.label_groups.append(label_group)
 
+        self.self_storage = [[] for _ in range(len(self.storage))]
         self.previous_storage = [[] for _ in range(len(self.storage))]
 
     def process_ids(self, t5_ids, clip_ids):
@@ -105,6 +114,7 @@ class Controller:
             self.token_groups.append(token_group)
             self.label_groups.append(label_group)
         
+        self.self_storage = [[] for _ in range(len(self.storage))]
         self.previous_storage = [[] for _ in range(len(self.storage))]
 
     def is_active(self) -> bool:
@@ -122,6 +132,18 @@ class Controller:
     def reset_storage(self):
         """Reset the stored cross-attention tensors."""
         self.storage = [[] for _ in range(len(self.storage))]
+        self.self_storage = [[] for _ in range(len(self.self_storage))]
+
+    def save_self_attention(self, self_attn: torch.Tensor):
+        """Save image self-attention matrices [B, L_img, L_img]."""
+        if self.activated and self.heuristic == "self_cross_guidance":
+            for idx in range(len(self.self_storage)):
+                self.self_storage[idx].append(self_attn[idx])
+
+    def return_self_storage(self, idx: int) -> torch.Tensor:
+        """Average over blocks → [L_img, L_img]."""
+        S = torch.stack(self.self_storage[idx]).to(torch.float32)   # [num_blocks, L_img, L_img]
+        return S.mean(dim=0)
 
     def save_cross_attention(self, attn: torch.Tensor):
         """Save cross-attention maps for selected tokens."""
@@ -169,6 +191,18 @@ class Controller:
 
             elif self.heuristic == "divide_and_bind":
                 loss_ls.append(divide_and_bind_loss(emb, self.label_groups[idx]))
+
+            elif self.heuristic == "self_cross_guidance":
+                selfA  = self.return_self_storage(idx)
+                loss_ls.append(self_cross_guidance_loss(
+                    emb, 
+                    self.label_groups[idx], 
+                    self_attn=selfA, 
+                    lambda_cross=0.0
+                ))
+
+            elif self.heuristic == "enmmdt":
+                loss_ls.append(enmmdt_loss(emb, self.label_groups[idx]))
 
             else:
                 raise ValueError(f"Unknown heuristic: {self.heuristic}")

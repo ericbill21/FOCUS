@@ -96,7 +96,11 @@ class FluxAttnProcessor:
 
             # save as (B, L_txt, L_img) so [:, j] is the spatial map for token j
             self.controller.save_cross_attention(img_txt.transpose(-1, -2))
-        ### START MY CODE ADITION ###
+
+            # Save self-attention for image tokens as well
+            img_img = probs[:, :, img_q, img_q].mean(dim=1)
+            self.controller.save_self_attention(img_img)
+        ### END MY CODE ADITION ###
 
         hidden_states = F.scaled_dot_product_attention(
             query, key, value, attn_mask=attention_mask, dropout_p=0.0, is_causal=False
