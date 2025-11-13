@@ -330,7 +330,7 @@ class MemorylessSDESolver:
                 xt = x_traj[idx].detach()
                 xt.requires_grad_(calc_cost_gradient)
 
-                if controller and idx <= controller.timestep_end:
+                if controller is not None:
                     controller.activate_storage()
 
                 neg_vt = self.transformer(
@@ -343,7 +343,7 @@ class MemorylessSDESolver:
                     guidance=guidance,
                 ).sample
 
-                if controller and idx <= controller.timestep_end:
+                if controller is not None:
                     cost = lambda_val * controller.compute_cost()
                     cum_cost += cost
                     
