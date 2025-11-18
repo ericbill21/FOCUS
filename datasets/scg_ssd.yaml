@@ -1,0 +1,4002 @@
+- prompt: a tiger and a lion and a leopard
+  subjects:
+  - tiger
+  - lion
+  - leopard
+  clip:
+  - - 2
+  - - 5
+  - - 8
+  t5:
+  - - 3
+    - 4
+  - - 9
+  - - 13
+- prompt: a horse and a donkey and zebra
+  subjects:
+  - horse
+  - donkey
+  - zebra
+  clip:
+  - - 2
+  - - 5
+  - - 7
+  t5:
+  - - 2
+  - - 6
+    - 7
+  - - 10
+    - 11
+- prompt: a beagle and a collie and a husky
+  subjects:
+  - beagle
+  - collie
+  - husky
+  clip:
+  - - 2
+  - - 5
+  - - 8
+  t5:
+  - - 2
+    - 3
+    - 4
+  - - 8
+    - 9
+  - - 14
+    - 15
+- prompt: a chicken and a duck and a goose
+  subjects:
+  - chicken
+  - duck
+  - goose
+  clip:
+  - - 2
+  - - 5
+  - - 8
+  t5:
+  - - 2
+  - - 6
+  - - 10
+- prompt: a eagle and a owl and a seagull
+  subjects:
+  - eagle
+  - owl
+  - seagull
+  clip:
+  - - 2
+  - - 5
+  - - 8
+  t5:
+  - - 3
+    - 4
+    - 5
+  - - 10
+    - 11
+  - - 15
+    - 16
+    - 17
+- prompt: a parrot and a pigeon and a sparrow
+  subjects:
+  - parrot
+  - pigeon
+  - sparrow
+  clip:
+  - - 2
+  - - 5
+  - - 8
+  t5:
+  - - 2
+    - 3
+  - - 8
+    - 9
+    - 10
+  - - 14
+    - 15
+- prompt: a snake and a lizard and a turtle
+  subjects:
+  - snake
+  - lizard
+  - turtle
+  clip:
+  - - 2
+  - - 5
+  - - 8
+  t5:
+  - - 2
+  - - 7
+    - 8
+  - - 12
+- prompt: a shark and a whale and a crocodile
+  subjects:
+  - shark
+  - whale
+  - crocodile
+  clip:
+  - - 2
+  - - 5
+  - - 8
+  t5:
+  - - 2
+  - - 6
+  - - 11
+    - 12
+    - 13
+    - 14
+- prompt: a sunflower and a daisy and a dandelion
+  subjects:
+  - sunflower
+  - daisy
+  - dandelion
+  clip:
+  - - 2
+  - - 5
+  - - 8
+  t5:
+  - - 2
+  - - 6
+    - 7
+    - 8
+  - - 13
+    - 14
+    - 15
+    - 16
+- prompt: a bus and a truck and a jeep
+  subjects:
+  - bus
+  - truck
+  - jeep
+  clip:
+  - - 2
+  - - 5
+  - - 8
+  t5:
+  - - 2
+  - - 6
+  - - 10
+    - 11
+    - 12
+- prompt: a pug and a corgi and a chihuahua
+  subjects:
+  - pug
+  - corgi
+  - chihuahua
+  clip:
+  - - 2
+  - - 5
+  - - 8
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+    - 9
+  - - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+- prompt: a orca and a dolphin and a seal
+  subjects:
+  - orca
+  - dolphin
+  - seal
+  clip:
+  - - 2
+  - - 5
+  - - 8
+  t5:
+  - - 2
+    - 3
+  - - 7
+  - - 11
+- prompt: a basketball and a volleyball and a baseball
+  subjects:
+  - basketball
+  - volleyball
+  - baseball
+  clip:
+  - - 2
+  - - 5
+  - - 8
+  t5:
+  - - 2
+  - - 6
+  - - 10
+- prompt: a bike and a scooter and a skateboard
+  subjects:
+  - bike
+  - scooter
+  - skateboard
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 9
+  t5:
+  - - 2
+  - - 6
+  - - 10
+    - 11
+- prompt: a cat and a tiger and a rabbit
+  subjects:
+  - cat
+  - tiger
+  - rabbit
+  clip:
+  - - 2
+  - - 5
+  - - 8
+  t5:
+  - - 2
+  - - 7
+    - 8
+  - - 12
+- prompt: an apple and a banana and an orange
+  subjects:
+  - an apple
+  - banana
+  - an orange
+  clip:
+  - - 1
+    - 2
+  - - 5
+  - - 7
+    - 8
+  t5:
+  - - 0
+    - 1
+  - - 5
+  - - 7
+    - 8
+- prompt: a tomato and an apple and a peach
+  subjects:
+  - tomato
+  - an apple
+  - peach
+  clip:
+  - - 2
+  - - 4
+    - 5
+  - - 8
+  t5:
+  - - 2
+  - - 4
+    - 5
+  - - 9
+    - 10
+- prompt: a bear and a wolf and a fox
+  subjects:
+  - bear
+  - wolf
+  - fox
+  clip:
+  - - 2
+  - - 5
+  - - 8
+  t5:
+  - - 2
+  - - 7
+  - - 12
+- prompt: a carrot and a potato and a parsnip
+  subjects:
+  - carrot
+  - potato
+  - parsnip
+  clip:
+  - - 2
+  - - 5
+  - - 8
+    - 9
+  t5:
+  - - 2
+  - - 6
+  - - 10
+    - 11
+- prompt: a deer and a llama and a camel
+  subjects:
+  - deer
+  - llama
+  - camel
+  clip:
+  - - 2
+  - - 5
+  - - 8
+  t5:
+  - - 2
+    - 3
+  - - 8
+    - 9
+    - 10
+  - - 14
+    - 15
+- prompt: a squirrel and a rabbit and a raccoon
+  subjects:
+  - squirrel
+  - rabbit
+  - raccoon
+  clip:
+  - - 2
+  - - 5
+  - - 8
+  t5:
+  - - 2
+  - - 6
+  - - 11
+    - 12
+    - 13
+- prompt: a watermelon and a muskmelon and a coconut
+  subjects:
+  - watermelon
+  - muskmelon
+  - coconut
+  clip:
+  - - 2
+  - - 5
+    - 6
+  - - 9
+  t5:
+  - - 2
+    - 3
+    - 4
+  - - 9
+    - 10
+    - 11
+    - 12
+  - - 16
+- prompt: a cheetah and a panther
+  subjects:
+  - cheetah
+  - panther
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 3
+    - 4
+    - 5
+    - 6
+    - 7
+  - - 11
+    - 12
+    - 13
+- prompt: a leopard and a tiger
+  subjects:
+  - leopard
+  - tiger
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 7
+    - 8
+- prompt: a mastiff and a husky
+  subjects:
+  - mastiff
+  - husky
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+    - 3
+  - - 8
+    - 9
+- prompt: a pug and a corgi
+  subjects:
+  - pug
+  - corgi
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+    - 9
+- prompt: a chihuahua and a poodle
+  subjects:
+  - chihuahua
+  - poodle
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+  - - 14
+    - 15
+- prompt: a beagle and a collie
+  subjects:
+  - beagle
+  - collie
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+    - 3
+    - 4
+  - - 8
+    - 9
+- prompt: a parrot and a pigeon
+  subjects:
+  - parrot
+  - pigeon
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+    - 3
+  - - 8
+    - 9
+    - 10
+- prompt: a duck and a penguin
+  subjects:
+  - duck
+  - penguin
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a eagle and a owl
+  subjects:
+  - eagle
+  - owl
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 3
+    - 4
+    - 5
+  - - 10
+    - 11
+- prompt: a eagle and a condor
+  subjects:
+  - eagle
+  - condor
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 3
+    - 4
+    - 5
+  - - 9
+    - 10
+- prompt: a swan and a seagull
+  subjects:
+  - swan
+  - seagull
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 3
+    - 4
+  - - 8
+    - 9
+    - 10
+- prompt: a sparrow and a pheasant
+  subjects:
+  - sparrow
+  - pheasant
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+    - 3
+  - - 8
+    - 9
+    - 10
+    - 11
+    - 12
+- prompt: a sparrow and a pigeon
+  subjects:
+  - sparrow
+  - pigeon
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+    - 3
+  - - 8
+    - 9
+    - 10
+- prompt: a woodpecker and a kingfisher
+  subjects:
+  - woodpecker
+  - kingfisher
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+    - 3
+    - 4
+  - - 9
+    - 10
+    - 11
+- prompt: a hummingbird and a kingfisher
+  subjects:
+  - hummingbird
+  - kingfisher
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 3
+    - 4
+    - 5
+  - - 10
+    - 11
+    - 12
+- prompt: a loon and a kingfisher
+  subjects:
+  - loon
+  - kingfisher
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+    - 3
+  - - 8
+    - 9
+    - 10
+- prompt: a horse and a donkey
+  subjects:
+  - horse
+  - donkey
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: an horse and a zebra
+  subjects:
+  - an horse
+  - zebra
+  clip:
+  - - 1
+    - 2
+  - - 5
+  t5:
+  - - 0
+    - 1
+  - - 6
+    - 7
+- prompt: an ox and a cow
+  subjects:
+  - an ox
+  - cow
+  clip:
+  - - 1
+    - 2
+  - - 5
+  t5:
+  - - 0
+    - 1
+    - 2
+    - 3
+  - - 7
+- prompt: a orca and a dolphin
+  subjects:
+  - orca
+  - dolphin
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+    - 3
+  - - 7
+- prompt: a marlin and a dolphin
+  subjects:
+  - marlin
+  - dolphin
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+    - 3
+    - 4
+  - - 8
+- prompt: a seal and a manatee
+  subjects:
+  - seal
+  - manatee
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+    - 7
+    - 8
+- prompt: a carp and a catfish
+  subjects:
+  - carp
+  - catfish
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a trout and a marlin
+  subjects:
+  - trout
+  - marlin
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+    - 9
+- prompt: a crab and a spider
+  subjects:
+  - crab
+  - spider
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a fly and a bee
+  subjects:
+  - fly
+  - bee
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a dahlia and a sunflower
+  subjects:
+  - dahlia
+  - sunflower
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+    - 3
+    - 4
+    - 5
+    - 6
+  - - 10
+- prompt: a aster and a sunflower
+  subjects:
+  - aster
+  - sunflower
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+    - 3
+  - - 7
+- prompt: a rose and a carnation
+  subjects:
+  - rose
+  - carnation
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+    - 7
+    - 8
+- prompt: a bus and a truck
+  subjects:
+  - bus
+  - truck
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a jeep and a sedan
+  subjects:
+  - jeep
+  - sedan
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+    - 3
+    - 4
+  - - 8
+- prompt: a bear and a frog
+  subjects:
+  - bear
+  - frog
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 7
+    - 8
+- prompt: a dog and a horse
+  subjects:
+  - dog
+  - horse
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a bear and a elephant
+  subjects:
+  - bear
+  - elephant
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a elephant and a rabbit
+  subjects:
+  - elephant
+  - rabbit
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a dog and a frog
+  subjects:
+  - dog
+  - frog
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 7
+    - 8
+- prompt: a bird and a rat
+  subjects:
+  - bird
+  - rat
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 7
+- prompt: a monkey and a frog
+  subjects:
+  - monkey
+  - frog
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 7
+    - 8
+- prompt: a horse and a monkey
+  subjects:
+  - horse
+  - monkey
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a bird and a turtle
+  subjects:
+  - bird
+  - turtle
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a bird and a lion
+  subjects:
+  - bird
+  - lion
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 7
+- prompt: a lion and a monkey
+  subjects:
+  - lion
+  - monkey
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 3
+  - - 7
+- prompt: a horse and a turtle
+  subjects:
+  - horse
+  - turtle
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a bird and a monkey
+  subjects:
+  - bird
+  - monkey
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a bear and a turtle
+  subjects:
+  - bear
+  - turtle
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a dog and a elephant
+  subjects:
+  - dog
+  - elephant
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a turtle and a rat
+  subjects:
+  - turtle
+  - rat
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 7
+- prompt: a cat and a turtle
+  subjects:
+  - cat
+  - turtle
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a dog and a rat
+  subjects:
+  - dog
+  - rat
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 7
+- prompt: a cat and a elephant
+  subjects:
+  - cat
+  - elephant
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a cat and a bird
+  subjects:
+  - cat
+  - bird
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a dog and a monkey
+  subjects:
+  - dog
+  - monkey
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a lion and a rat
+  subjects:
+  - lion
+  - rat
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 3
+  - - 8
+- prompt: a bear and a lion
+  subjects:
+  - bear
+  - lion
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 7
+- prompt: a bird and a elephant
+  subjects:
+  - bird
+  - elephant
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a lion and a turtle
+  subjects:
+  - lion
+  - turtle
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 3
+  - - 7
+- prompt: a dog and a bird
+  subjects:
+  - dog
+  - bird
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a bird and a rabbit
+  subjects:
+  - bird
+  - rabbit
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a elephant and a turtle
+  subjects:
+  - elephant
+  - turtle
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a lion and a elephant
+  subjects:
+  - lion
+  - elephant
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 3
+  - - 7
+- prompt: a cat and a rabbit
+  subjects:
+  - cat
+  - rabbit
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a dog and a bear
+  subjects:
+  - dog
+  - bear
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a dog and a rabbit
+  subjects:
+  - dog
+  - rabbit
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a cat and a bear
+  subjects:
+  - cat
+  - bear
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a bird and a horse
+  subjects:
+  - bird
+  - horse
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a rabbit and a rat
+  subjects:
+  - rabbit
+  - rat
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 7
+- prompt: a bird and a bear
+  subjects:
+  - bird
+  - bear
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a bear and a monkey
+  subjects:
+  - bear
+  - monkey
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a horse and a frog
+  subjects:
+  - horse
+  - frog
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 7
+    - 8
+- prompt: a cat and a horse
+  subjects:
+  - cat
+  - horse
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a frog and a rabbit
+  subjects:
+  - frog
+  - rabbit
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 3
+    - 4
+  - - 8
+- prompt: a bear and a rat
+  subjects:
+  - bear
+  - rat
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 7
+- prompt: a monkey and a rabbit
+  subjects:
+  - monkey
+  - rabbit
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a cat and a dog
+  subjects:
+  - cat
+  - dog
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a lion and a frog
+  subjects:
+  - lion
+  - frog
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 3
+  - - 8
+    - 9
+- prompt: a frog and a rat
+  subjects:
+  - frog
+  - rat
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 3
+    - 4
+  - - 9
+- prompt: a dog and a lion
+  subjects:
+  - dog
+  - lion
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 7
+- prompt: a lion and a rabbit
+  subjects:
+  - lion
+  - rabbit
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 3
+  - - 7
+- prompt: a elephant and a frog
+  subjects:
+  - elephant
+  - frog
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 7
+    - 8
+- prompt: a frog and a turtle
+  subjects:
+  - frog
+  - turtle
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 3
+    - 4
+  - - 8
+- prompt: a cat and a lion
+  subjects:
+  - cat
+  - lion
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 7
+- prompt: a horse and a rabbit
+  subjects:
+  - horse
+  - rabbit
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a cat and a monkey
+  subjects:
+  - cat
+  - monkey
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a bear and a rabbit
+  subjects:
+  - bear
+  - rabbit
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a turtle and a rabbit
+  subjects:
+  - turtle
+  - rabbit
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a elephant and a monkey
+  subjects:
+  - elephant
+  - monkey
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a bird and a frog
+  subjects:
+  - bird
+  - frog
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 7
+    - 8
+- prompt: a lion and a horse
+  subjects:
+  - lion
+  - horse
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 3
+  - - 7
+- prompt: a bear and a horse
+  subjects:
+  - bear
+  - horse
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a horse and a rat
+  subjects:
+  - horse
+  - rat
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 7
+- prompt: a dog and a turtle
+  subjects:
+  - dog
+  - turtle
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a monkey and a rat
+  subjects:
+  - monkey
+  - rat
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 7
+- prompt: a cat and a frog
+  subjects:
+  - cat
+  - frog
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 7
+    - 8
+- prompt: a monkey and a turtle
+  subjects:
+  - monkey
+  - turtle
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a horse and a elephant
+  subjects:
+  - horse
+  - elephant
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a cat and a rat
+  subjects:
+  - cat
+  - rat
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 7
+- prompt: a elephant and a rat
+  subjects:
+  - elephant
+  - rat
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 7
+- prompt: a horse with a glasses
+  subjects:
+  - horse
+  - glasses
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a bear with a glasses
+  subjects:
+  - bear
+  - glasses
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a monkey and a red car
+  subjects:
+  - monkey
+  - red car
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a elephant with a bow
+  subjects:
+  - elephant
+  - bow
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a frog and a purple balloon
+  subjects:
+  - frog
+  - purple balloon
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 3
+    - 4
+  - - 8
+    - 9
+- prompt: a mouse with a bow
+  subjects:
+  - mouse
+  - bow
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a bird with a crown
+  subjects:
+  - bird
+  - crown
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a turtle and a yellow bowl
+  subjects:
+  - turtle
+  - yellow bowl
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a rabbit and a gray chair
+  subjects:
+  - rabbit
+  - gray chair
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a dog and a black apple
+  subjects:
+  - dog
+  - black apple
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a rabbit and a white bench
+  subjects:
+  - rabbit
+  - white bench
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a lion and a yellow clock
+  subjects:
+  - lion
+  - yellow clock
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 3
+  - - 7
+    - 8
+- prompt: a turtle and a gray backpack
+  subjects:
+  - turtle
+  - gray backpack
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a elephant and a green balloon
+  subjects:
+  - elephant
+  - green balloon
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a monkey and a orange apple
+  subjects:
+  - monkey
+  - orange apple
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a lion and a red car
+  subjects:
+  - lion
+  - red car
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 3
+  - - 7
+    - 8
+- prompt: a lion with a crown
+  subjects:
+  - lion
+  - crown
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 3
+  - - 7
+- prompt: a bird and a purple bench
+  subjects:
+  - bird
+  - purple bench
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a rabbit and a orange backpack
+  subjects:
+  - rabbit
+  - orange backpack
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a rabbit and a orange apple
+  subjects:
+  - rabbit
+  - orange apple
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a monkey and a green bowl
+  subjects:
+  - monkey
+  - green bowl
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a frog and a red suitcase
+  subjects:
+  - frog
+  - red suitcase
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 3
+    - 4
+  - - 8
+    - 9
+- prompt: a monkey and a green balloon
+  subjects:
+  - monkey
+  - green balloon
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a cat with a glasses
+  subjects:
+  - cat
+  - glasses
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a bear and a blue clock
+  subjects:
+  - bear
+  - blue clock
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a cat and a gray bench
+  subjects:
+  - cat
+  - gray bench
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a bear with a crown
+  subjects:
+  - bear
+  - crown
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a lion with a bow
+  subjects:
+  - lion
+  - bow
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 3
+  - - 7
+- prompt: a bear and a red balloon
+  subjects:
+  - bear
+  - red balloon
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a bird and a black backpack
+  subjects:
+  - bird
+  - black backpack
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a horse and a pink balloon
+  subjects:
+  - horse
+  - pink balloon
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a turtle and a yellow car
+  subjects:
+  - turtle
+  - yellow car
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a lion with a glasses
+  subjects:
+  - lion
+  - glasses
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 3
+  - - 7
+- prompt: a cat and a yellow balloon
+  subjects:
+  - cat
+  - yellow balloon
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a horse and a yellow clock
+  subjects:
+  - horse
+  - yellow clock
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a dog with a glasses
+  subjects:
+  - dog
+  - glasses
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a horse and a blue backpack
+  subjects:
+  - horse
+  - blue backpack
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a frog with a bow
+  subjects:
+  - frog
+  - bow
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 3
+    - 4
+  - - 8
+- prompt: a elephant with a glasses
+  subjects:
+  - elephant
+  - glasses
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a mouse and a red bench
+  subjects:
+  - mouse
+  - red bench
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a bird and a brown balloon
+  subjects:
+  - bird
+  - brown balloon
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a monkey and a yellow backpack
+  subjects:
+  - monkey
+  - yellow backpack
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a turtle and a pink balloon
+  subjects:
+  - turtle
+  - pink balloon
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a cat and a red apple
+  subjects:
+  - cat
+  - red apple
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a monkey and a brown bench
+  subjects:
+  - monkey
+  - brown bench
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a rabbit with a glasses
+  subjects:
+  - rabbit
+  - glasses
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a bear and a gray bench
+  subjects:
+  - bear
+  - gray bench
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a turtle and a blue clock
+  subjects:
+  - turtle
+  - blue clock
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a monkey and a blue chair
+  subjects:
+  - monkey
+  - blue chair
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a turtle and a blue chair
+  subjects:
+  - turtle
+  - blue chair
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a dog with a bow
+  subjects:
+  - dog
+  - bow
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a elephant and a black chair
+  subjects:
+  - elephant
+  - black chair
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a mouse and a purple chair
+  subjects:
+  - mouse
+  - purple chair
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a bear and a white car
+  subjects:
+  - bear
+  - white car
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a lion and a black backpack
+  subjects:
+  - lion
+  - black backpack
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 3
+  - - 7
+    - 8
+- prompt: a dog with a crown
+  subjects:
+  - dog
+  - crown
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a horse and a green apple
+  subjects:
+  - horse
+  - green apple
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a dog and a gray clock
+  subjects:
+  - dog
+  - gray clock
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a dog and a purple car
+  subjects:
+  - dog
+  - purple car
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a dog and a gray bowl
+  subjects:
+  - dog
+  - gray bowl
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a monkey with a bow
+  subjects:
+  - monkey
+  - bow
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a mouse and a blue clock
+  subjects:
+  - mouse
+  - blue clock
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a bird and a black bowl
+  subjects:
+  - bird
+  - black bowl
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a horse and a white car
+  subjects:
+  - horse
+  - white car
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a mouse and a pink apple
+  subjects:
+  - mouse
+  - pink apple
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a bear and a orange backpack
+  subjects:
+  - bear
+  - orange backpack
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a elephant and a yellow clock
+  subjects:
+  - elephant
+  - yellow clock
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a bird and a green chair
+  subjects:
+  - bird
+  - green chair
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a mouse and a black balloon
+  subjects:
+  - mouse
+  - black balloon
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a turtle and a white bench
+  subjects:
+  - turtle
+  - white bench
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a bird with a bow
+  subjects:
+  - bird
+  - bow
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a turtle with a crown
+  subjects:
+  - turtle
+  - crown
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a bird and a yellow car
+  subjects:
+  - bird
+  - yellow car
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a frog and a orange car
+  subjects:
+  - frog
+  - orange car
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 3
+    - 4
+  - - 8
+    - 9
+- prompt: a dog and a pink bench
+  subjects:
+  - dog
+  - pink bench
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a frog with a crown
+  subjects:
+  - frog
+  - crown
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 3
+    - 4
+  - - 8
+- prompt: a frog and a green bowl
+  subjects:
+  - frog
+  - green bowl
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 3
+    - 4
+  - - 8
+    - 9
+- prompt: a frog and a pink bench
+  subjects:
+  - frog
+  - pink bench
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 3
+    - 4
+  - - 8
+    - 9
+- prompt: a horse with a bow
+  subjects:
+  - horse
+  - bow
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a bird and a yellow apple
+  subjects:
+  - bird
+  - yellow apple
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a monkey with a crown
+  subjects:
+  - monkey
+  - crown
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a cat and a blue backpack
+  subjects:
+  - cat
+  - blue backpack
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a turtle and a pink apple
+  subjects:
+  - turtle
+  - pink apple
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a dog and a orange chair
+  subjects:
+  - dog
+  - orange chair
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a horse and a green suitcase
+  subjects:
+  - horse
+  - green suitcase
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a elephant with a crown
+  subjects:
+  - elephant
+  - crown
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a monkey and a orange suitcase
+  subjects:
+  - monkey
+  - orange suitcase
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a turtle and a orange suitcase
+  subjects:
+  - turtle
+  - orange suitcase
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a lion and a gray apple
+  subjects:
+  - lion
+  - gray apple
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 3
+  - - 7
+    - 8
+- prompt: a mouse with a crown
+  subjects:
+  - mouse
+  - crown
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a mouse with a glasses
+  subjects:
+  - mouse
+  - glasses
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a horse and a brown bowl
+  subjects:
+  - horse
+  - brown bowl
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a monkey and a yellow clock
+  subjects:
+  - monkey
+  - yellow clock
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a turtle with a bow
+  subjects:
+  - turtle
+  - bow
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a dog and a brown backpack
+  subjects:
+  - dog
+  - brown backpack
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a cat and a purple bowl
+  subjects:
+  - cat
+  - purple bowl
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a lion and a white bench
+  subjects:
+  - lion
+  - white bench
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 3
+  - - 7
+    - 8
+- prompt: a rabbit and a blue bowl
+  subjects:
+  - rabbit
+  - blue bowl
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a lion and a brown balloon
+  subjects:
+  - lion
+  - brown balloon
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 3
+  - - 7
+    - 8
+- prompt: a horse and a pink chair
+  subjects:
+  - horse
+  - pink chair
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a elephant and a green bench
+  subjects:
+  - elephant
+  - green bench
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a rabbit and a white balloon
+  subjects:
+  - rabbit
+  - white balloon
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a elephant and a pink backpack
+  subjects:
+  - elephant
+  - pink backpack
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a lion and a orange suitcase
+  subjects:
+  - lion
+  - orange suitcase
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 3
+  - - 7
+    - 8
+- prompt: a elephant and a orange apple
+  subjects:
+  - elephant
+  - orange apple
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a elephant and a green suitcase
+  subjects:
+  - elephant
+  - green suitcase
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a horse with a crown
+  subjects:
+  - horse
+  - crown
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a bear with a bow
+  subjects:
+  - bear
+  - bow
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a rabbit and a yellow suitcase
+  subjects:
+  - rabbit
+  - yellow suitcase
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a horse and a blue bench
+  subjects:
+  - horse
+  - blue bench
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a dog and a green suitcase
+  subjects:
+  - dog
+  - green suitcase
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a mouse and a red car
+  subjects:
+  - mouse
+  - red car
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a cat and a black chair
+  subjects:
+  - cat
+  - black chair
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a bear and a red suitcase
+  subjects:
+  - bear
+  - red suitcase
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a rabbit and a gray clock
+  subjects:
+  - rabbit
+  - gray clock
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a bear and a pink apple
+  subjects:
+  - bear
+  - pink apple
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a lion and a white chair
+  subjects:
+  - lion
+  - white chair
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 3
+  - - 7
+    - 8
+- prompt: a rabbit with a crown
+  subjects:
+  - rabbit
+  - crown
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a mouse and a purple bowl
+  subjects:
+  - mouse
+  - purple bowl
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a frog and a black apple
+  subjects:
+  - frog
+  - black apple
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 3
+    - 4
+  - - 8
+    - 9
+- prompt: a rabbit with a bow
+  subjects:
+  - rabbit
+  - bow
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a mouse and a pink suitcase
+  subjects:
+  - mouse
+  - pink suitcase
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a lion and a pink bowl
+  subjects:
+  - lion
+  - pink bowl
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 3
+  - - 7
+    - 8
+- prompt: a frog and a black chair
+  subjects:
+  - frog
+  - black chair
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 3
+    - 4
+  - - 8
+    - 9
+- prompt: a frog and a green clock
+  subjects:
+  - frog
+  - green clock
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 3
+    - 4
+  - - 8
+    - 9
+- prompt: a bear and a white chair
+  subjects:
+  - bear
+  - white chair
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a elephant and a brown car
+  subjects:
+  - elephant
+  - brown car
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a turtle with a glasses
+  subjects:
+  - turtle
+  - glasses
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a cat and a black suitcase
+  subjects:
+  - cat
+  - black suitcase
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a cat and a yellow car
+  subjects:
+  - cat
+  - yellow car
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a frog and a yellow backpack
+  subjects:
+  - frog
+  - yellow backpack
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 3
+    - 4
+  - - 8
+    - 9
+- prompt: a bird and a black suitcase
+  subjects:
+  - bird
+  - black suitcase
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a cat with a crown
+  subjects:
+  - cat
+  - crown
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a rabbit and a yellow car
+  subjects:
+  - rabbit
+  - yellow car
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a cat with a bow
+  subjects:
+  - cat
+  - bow
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a bird and a white clock
+  subjects:
+  - bird
+  - white clock
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a cat and a green clock
+  subjects:
+  - cat
+  - green clock
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a bear and a purple bowl
+  subjects:
+  - bear
+  - purple bowl
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a monkey with a glasses
+  subjects:
+  - monkey
+  - glasses
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a frog with a glasses
+  subjects:
+  - frog
+  - glasses
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 3
+    - 4
+  - - 8
+- prompt: a elephant and a green bowl
+  subjects:
+  - elephant
+  - green bowl
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a bird with a glasses
+  subjects:
+  - bird
+  - glasses
+  clip:
+  - - 2
+  - - 5
+  t5:
+  - - 2
+  - - 6
+- prompt: a dog and a blue balloon
+  subjects:
+  - dog
+  - blue balloon
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a mouse and a brown backpack
+  subjects:
+  - mouse
+  - brown backpack
+  clip:
+  - - 2
+  - - 5
+    - 6
+  t5:
+  - - 2
+  - - 6
+    - 7
+- prompt: a pink crown and a purple bow
+  subjects:
+  - pink crown
+  - purple bow
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a blue clock and a blue apple
+  subjects:
+  - blue clock
+  - blue apple
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a blue balloon and a orange bench
+  subjects:
+  - blue balloon
+  - orange bench
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a pink crown and a red chair
+  subjects:
+  - pink crown
+  - red chair
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a orange chair and a blue clock
+  subjects:
+  - orange chair
+  - blue clock
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a purple bowl and a black bench
+  subjects:
+  - purple bowl
+  - black bench
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a green glasses and a black crown
+  subjects:
+  - green glasses
+  - black crown
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a purple chair and a red bow
+  subjects:
+  - purple chair
+  - red bow
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a yellow glasses and a black car
+  subjects:
+  - yellow glasses
+  - black car
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a orange backpack and a purple car
+  subjects:
+  - orange backpack
+  - purple car
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a white balloon and a white apple
+  subjects:
+  - white balloon
+  - white apple
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a brown suitcase and a black clock
+  subjects:
+  - brown suitcase
+  - black clock
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a yellow backpack and a purple chair
+  subjects:
+  - yellow backpack
+  - purple chair
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a gray backpack and a green clock
+  subjects:
+  - gray backpack
+  - green clock
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a blue crown and a red balloon
+  subjects:
+  - blue crown
+  - red balloon
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a gray suitcase and a black bowl
+  subjects:
+  - gray suitcase
+  - black bowl
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a brown balloon and a pink car
+  subjects:
+  - brown balloon
+  - pink car
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a black backpack and a green bow
+  subjects:
+  - black backpack
+  - green bow
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a blue balloon and a blue bow
+  subjects:
+  - blue balloon
+  - blue bow
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a white bow and a white car
+  subjects:
+  - white bow
+  - white car
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a orange bowl and a purple apple
+  subjects:
+  - orange bowl
+  - purple apple
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a brown chair and a white bench
+  subjects:
+  - brown chair
+  - white bench
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a purple crown and a blue suitcase
+  subjects:
+  - purple crown
+  - blue suitcase
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a yellow bow and a orange bench
+  subjects:
+  - yellow bow
+  - orange bench
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a yellow glasses and a brown bow
+  subjects:
+  - yellow glasses
+  - brown bow
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a red glasses and a red suitcase
+  subjects:
+  - red glasses
+  - red suitcase
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a pink bow and a gray apple
+  subjects:
+  - pink bow
+  - gray apple
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a gray crown and a white clock
+  subjects:
+  - gray crown
+  - white clock
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a black car and a white clock
+  subjects:
+  - black car
+  - white clock
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a brown bowl and a green clock
+  subjects:
+  - brown bowl
+  - green clock
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a green backpack and a yellow crown
+  subjects:
+  - green backpack
+  - yellow crown
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a orange glasses and a pink clock
+  subjects:
+  - orange glasses
+  - pink clock
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a purple chair and a orange bowl
+  subjects:
+  - purple chair
+  - orange bowl
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a orange suitcase and a brown bench
+  subjects:
+  - orange suitcase
+  - brown bench
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a white glasses and a orange balloon
+  subjects:
+  - white glasses
+  - orange balloon
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a yellow backpack and a gray apple
+  subjects:
+  - yellow backpack
+  - gray apple
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a green bench and a red apple
+  subjects:
+  - green bench
+  - red apple
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a gray backpack and a yellow glasses
+  subjects:
+  - gray backpack
+  - yellow glasses
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a green glasses and a yellow chair
+  subjects:
+  - green glasses
+  - yellow chair
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a white glasses and a gray apple
+  subjects:
+  - white glasses
+  - gray apple
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a gray suitcase and a brown bow
+  subjects:
+  - gray suitcase
+  - brown bow
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a white car and a black bowl
+  subjects:
+  - white car
+  - black bowl
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a purple car and a pink apple
+  subjects:
+  - purple car
+  - pink apple
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a gray crown and a purple apple
+  subjects:
+  - gray crown
+  - purple apple
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a orange car and a red bench
+  subjects:
+  - orange car
+  - red bench
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a red suitcase and a blue apple
+  subjects:
+  - red suitcase
+  - blue apple
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a red backpack and a yellow bowl
+  subjects:
+  - red backpack
+  - yellow bowl
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a red bench and a yellow clock
+  subjects:
+  - red bench
+  - yellow clock
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a black backpack and a pink balloon
+  subjects:
+  - black backpack
+  - pink balloon
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a blue suitcase and a gray balloon
+  subjects:
+  - blue suitcase
+  - gray balloon
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a yellow glasses and a gray bowl
+  subjects:
+  - yellow glasses
+  - gray bowl
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a white suitcase and a white chair
+  subjects:
+  - white suitcase
+  - white chair
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a purple crown and a blue bench
+  subjects:
+  - purple crown
+  - blue bench
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a yellow bow and a pink bowl
+  subjects:
+  - yellow bow
+  - pink bowl
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a green backpack and a brown suitcase
+  subjects:
+  - green backpack
+  - brown suitcase
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a green glasses and a black bench
+  subjects:
+  - green glasses
+  - black bench
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a white bow and a black clock
+  subjects:
+  - white bow
+  - black clock
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a red crown and a black bowl
+  subjects:
+  - red crown
+  - black bowl
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a green chair and a purple car
+  subjects:
+  - green chair
+  - purple car
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a white chair and a gray balloon
+  subjects:
+  - white chair
+  - gray balloon
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a pink chair and a gray apple
+  subjects:
+  - pink chair
+  - gray apple
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a yellow suitcase and a yellow car
+  subjects:
+  - yellow suitcase
+  - yellow car
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a green backpack and a purple bench
+  subjects:
+  - green backpack
+  - purple bench
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a black crown and a red car
+  subjects:
+  - black crown
+  - red car
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a green balloon and a pink bowl
+  subjects:
+  - green balloon
+  - pink bowl
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8
+- prompt: a purple balloon and a white clock
+  subjects:
+  - purple balloon
+  - white clock
+  clip:
+  - - 2
+    - 3
+  - - 6
+    - 7
+  t5:
+  - - 2
+    - 3
+  - - 7
+    - 8

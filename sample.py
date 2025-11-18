@@ -4,6 +4,7 @@ import argparse
 import torch
 from src.sd3 import SD3ControllerPipeline
 from src.flux import FluxControllerPipeline
+from src.sd1 import SD1ControllerPipeline
 
 from src.controller import Controller
 from peft import PeftModel
@@ -39,6 +40,15 @@ def main(args):
         NUM_INFERENCE_STEPS = 28
         GUIDANCE_SCALE = 3.5
         MAX_SEQ_LENGTH = 256
+
+    elif args.model == "SD1":
+        pipe = SD1ControllerPipeline.from_pretrained(
+            "sd-legacy/stable-diffusion-v1-5", 
+            torch_dtype=torch.float16
+        )
+        NUM_INFERENCE_STEPS = 50
+        GUIDANCE_SCALE = 7.5
+        MAX_SEQ_LENGTH = 77
 
     if args.path:
         pipe.transformer = PeftModel.from_pretrained(pipe.transformer, args.path).merge_and_unload()
@@ -143,7 +153,7 @@ if __name__ == "__main__":
     # JEDI parameters
     parser.add_argument("--lambda-scale", type=float, default=1, help="Lambda scaling factor for Controller, set to 0 to disable Controller")
     parser.add_argument("--heuristic", type=str, choices=["focus", "conform", "attend_and_excite", "divide_and_bind", "jedi"], default="focus", help="Controller method to use")
-    parser.add_argument("--model", type=str, choices=["SD3", "FLUX"], default="SD3", help="Base model to use")
+    parser.add_argument("--model", type=str, choices=["SD3", "FLUX", "SD1"], default="SD3", help="Base model to use")
 
     parser.add_argument("--save-memory", type=int, choices=[0, 1, 2, 3], default=0, help="Memory saving mode: 0 (none), 1 (offload), 2 (sequential offload), 3 (sequential + grad checkpointing)")
     

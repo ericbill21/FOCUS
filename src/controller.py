@@ -22,6 +22,7 @@ class Controller:
         lambda_scale: float = 1.0,
         t5_ids: List[List[int]] = [[[]]],
         clip_ids: List[List[int]] = [[[]]],
+        attn_res: int=16
     ):  
         # Default to empty lists if no tokens are provided
         if len(t5_ids) == 0:
@@ -47,6 +48,7 @@ class Controller:
         self.lambda_scale = lambda_scale
         self.heuristic = heuristic
         self.model = model
+        self.attn_res = attn_res # For unet models with different attention map resolutions
 
         # Process token IDs and initialize storage
         self.storage = []
@@ -148,6 +150,15 @@ class Controller:
     def save_cross_attention(self, attn: torch.Tensor):
         """Save cross-attention maps for selected tokens."""
         if self.activated:
+            if self.model == "SD1":
+                dim = int(attn.shape[-1]**0.5)
+                attn = F.interpolate(
+                    attn.view(-1, 1, dim, dim), 
+                    size=(self.attn_res, self.attn_res), 
+                    mode='bilinear', 
+                    align_corners=False
+                ).view(attn.shape[0], attn.shape[1], -1)
+            
             for idx in range(len(self.storage)):
                 self.storage[idx].append(attn[idx, self.token_groups[idx]])
 
