@@ -47,12 +47,14 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
+            <!-- <h3 class="title is-4">CVPR 2026 CVEU</h3> -->
             <h3 class="title is-4"></h3>
-            <h1 class="title is-1 publication-title">Optimal Control Meets Flow Matching: A Principled Route to Multi-Subject Fidelity</h1>
+            <h1 class="title is-1 publication-title">FOCUS:<br>
+              Optimal Control for Multi-Entity World Modeling in Text-to-Image Generation</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="https://linkedin.com/in/ericbill21" target="_blank">Eric Tillmann Bill</a>,</span>
+                <a href="https://ericbill.me/" target="_blank">Eric Tillmann Bill</a>,</span>
                 <a href="https://enis.dev/" target="_blank">Enis Simsar</a>,</span>
                 <span class="author-block">
                   <a href="https://da.inf.ethz.ch/" target="_blank">Thomas Hofmann</a></span>
@@ -66,7 +68,7 @@
                     <div class="publication-links">
                       <!-- ArXiv abstract Link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/abs/2505.19166" target="_blank"
+                        <a href="https://arxiv.org/abs/2510.02315" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="ai ai-arxiv"></i>
@@ -83,6 +85,38 @@
                       <i class="fab fa-github"></i>
                     </span>
                     <span>Code</span>
+                  <!-- HF SD3 -->
+                  <span class="link-block">
+                    <a href="https://huggingface.co/ericbill21/focus_sd35" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                          &#129303;
+                      </span>
+                    <span>SD3.5 Medium</span>
+                  </a>
+                </span>
+                <!-- HF FLUX -->
+                <span class="link-block">
+                    <a href="https://huggingface.co/ericbill21/focus_flux" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                          &#129303;
+                      </span>
+                    <span>FLUX.1 [DEV]</span>
+                  </a>
+                </span>
+                <!-- COLAB -->
+                <span class="link-block">
+                    <a href="https://colab.research.google.com/github/ericbill21/FOCUS/blob/main/demo_finetuning.ipynb" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <img
+                        src="static/images/colab.svg"
+                        alt="Google Colab"
+                        style="height: 1em; width: 1em; vertical-align: middle;"
+                      >
+                    </span>
+                    <span>Colab</span>
                   </a>
                 </span>
             </div>
@@ -117,7 +151,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Text-to-image (T2I) models excel on single-entity prompts but struggle with multi-subject descriptions, often showing attribute leakage, identity entanglement, and subject omissions. We introduce the first theoretical framework with a principled, optimizable objective for steering sampling dynamics toward multi-subject fidelity. Viewing flow matching (FM) through stochastic optimal control (SOC), we formulate subject disentanglement as control over a trained FM sampler. This yields two architecture-agnostic algorithms: (i) a training-free test-time controller that perturbs the base velocity with a single-pass update, and (ii) Adjoint Matching, a lightweight fine-tuning rule that regresses a control network to a backward adjoint signal while preserving base-model capabilities. The same formulation unifies prior attention heuristics, extends to diffusion models via a flow–diffusion correspondence, and provides the first fine-tuning route explicitly designed for multi-subject fidelity. Empirically, on Stable Diffusion 3.5, FLUX, and Stable Diffusion XL, both algorithms consistently improve multi-subject alignment while maintaining base-model style. Test-time control runs efficiently on commodity GPUs, and fine-tuned controllers trained on limited prompts generalize to unseen ones. We further highlight FOCUS (Flow Optimal Control for Unentangled Subjects), which achieves state-of-the-art multi-subject fidelity across models.
+            Text-to-image (T2I) models excel on single-entity prompts but struggle with multi-entity scenes, often exhibiting attribute leakage, identity entanglement, and subject omissions. We present a principled theoretical framework that steers sampling toward multi-subject fidelity by casting flow matching (FM) as stochastic optimal control (SOC), yielding a single hyperparameter controlled trade-off between fidelity and object-centric state separation / binding consistency. Within this framework, we derive two architecture-agnostic algorithms: (i) a training-free test-time controller that perturbs the base velocity with a single-pass update, and (ii) <em>Adjoint Matching</em>, a lightweight fine-tuning rule that regresses a control network to a backward adjoint signal. The same formulation unifies prior attention heuristics, extends to diffusion models via a flow–diffusion correspondence, and provides the first fine-tuning route explicitly designed for multi-subject fidelity. In addition, we also introduce <strong>FOCUS</strong> (Flow Optimal Control for Unentangled Subjects), a probabilistic attention-binding objective compatible with both algorithms. Empirically, on Stable Diffusion~3.5 and FLUX.1, both algorithms consistently improve multi-subject alignment while maintaining base-model style; test-time control runs efficiently on commodity GPUs, and fine-tuned models generalize to unseen prompts.
           </p>
         </div>
       </div>
@@ -131,7 +165,7 @@
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>@misc{bill2025focus,
-      title={Optimal Control Meets Flow Matching: A Principled Route to Multi-Subject Fidelity}, 
+      title={Optimal Control for Multi-Entity World Modeling in Text-to-Image Generation<}, 
       author={Eric Tillmann Bill and Enis Simsar and Thomas Hofmann},
       year={2025},
 }</code></pre>
