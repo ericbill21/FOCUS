@@ -1,4 +1,4 @@
-# FOCUS: A Principled Route to Multi‑Subject Fidelity
+# FOCUS: Optimal Control for Multi-Entity World Modeling in Text-to-Image Generation
 
 [![Project Website](https://img.shields.io/badge/Project-Website-green)](https://ericbill21.github.io/FOCUS/) [![arXiv](https://img.shields.io/badge/arXiv-2510.02315-b31b1b.svg)](https://arxiv.org/abs/2510.02315) [![HF SD3.5 + FOCUS](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-SD3.5+FOCUS-yellow)](https://huggingface.co/ericbill21/focus_sd35) [![HF FLUX + FOCUS](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FLUX.1+FOCUS-yellow)](https://huggingface.co/ericbill21/focus_flux) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ericbill21/FOCUS/blob/main/demo_finetuning.ipynb)
 
