@@ -2,35 +2,72 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
-  <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="Optimal Control Meets Flow Matching: A Principled Route to Multi-Subject Fidelity">
-  <meta property="og:title" content="Optimal Control Meets Flow Matching: A Principled Route to Multi-Subject Fidelity"/>
-  <meta property="og:description" content="A control-theoretic framework which introduces a lightweight test-time controller plus a fine-tuning route to achieve state-of-the-artmulti-subjectfidelity."/>
+  <meta name="description" content="FOCUS: Optimal Control for Multi-Entity World Modeling in Text-to-Image Generation (CVPR 2026).">
+  <meta property="og:title" content="FOCUS: Optimal Control for Multi-Entity World Modeling in Text-to-Image Generation"/>
+  <meta property="og:description" content="A control-theoretic framework which introduces a lightweight test-time controller plus a fine-tuning route to achieve state-of-the-art multi-subject fidelity."/>
   <meta property="og:url" content="https://ericbill21.github.io/FOCUS/"/>
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/images/teaser.jpg" />
+  <meta property="og:image" content="static/images/teaser_opt/img_0.jpg" />
   <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/>
 
-  <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="Image Generation, Diffusion Models, Test-Time Adaptation, Subject Disentanglement">
+  <meta name="keywords" content="Image Generation, Diffusion Models, Flow Matching, Stochastic Optimal Control, Multi-Subject, Subject Disentanglement, CVPR 2026">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <script src="https://www.w3counter.com/tracker.js?id=156396"></script>
 
-  <title>Optimal Control Meets Flow Matching: A Principled Route to Multi-Subject Fidelity</title>
+  <title>FOCUS: Optimal Control for Multi-Entity World Modeling in Text-to-Image Generation</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-  rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="static/css/index.css">
+
+  <style>
+    .teaser-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; align-items: start; }
+    .teaser-block .teaser-row { display: grid; gap: 3px; margin-bottom: 3px; }
+    .teaser-block .teaser-row img { width: 100%; height: auto; display: block; border-radius: 4px; }
+    .teaser-block .row-2 { grid-template-columns: 1fr 1fr; }
+    .teaser-block .row-3 { grid-template-columns: 1fr 1fr 1fr; }
+    .teaser-block .row-4 { grid-template-columns: 1fr 1fr 1fr 1fr; }
+    .teaser-label { font-family: 'Google Sans', sans-serif; font-weight: 700; margin-bottom: 6px; text-align: center; }
+
+    .qual-table { width: 100%; border-collapse: separate; border-spacing: 3px; }
+    .qual-table th { font-family: 'Google Sans', sans-serif; font-weight: 600; font-size: 0.85rem; text-align: center; padding: 4px 2px; }
+    .qual-table td { padding: 0; text-align: center; vertical-align: middle; }
+    .qual-table td img { width: 100%; height: auto; display: block; border-radius: 4px; }
+    .qual-table .row-label { font-family: 'Google Sans', sans-serif; font-weight: 700; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; font-size: 0.9rem; }
+    .qual-prompt { font-style: italic; font-size: 0.9rem; color: #444; text-align: center; padding-top: 4px; padding-bottom: 10px; }
+    .qual-highlight { outline: 2px solid #2c8a8a; border-radius: 5px; }
+
+    .metrics-table { font-size: 0.85rem; }
+    .metrics-table th, .metrics-table td { text-align: center; vertical-align: middle; padding: 6px 8px; }
+    .metrics-table th { font-family: 'Google Sans', sans-serif; }
+    .gold { background-color: #fff2c2; }
+    .silver { background-color: #e8e8e8; }
+    .bronze { background-color: #f3dcc1; }
+    .ours-row td { font-weight: 600; }
+
+    .attn-example { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; align-items: end; }
+    .attn-example figure { margin: 0; }
+    .attn-example img { width: 100%; height: auto; border-radius: 4px; display: block; }
+    .attn-example figcaption { text-align: center; font-family: 'Google Sans', sans-serif; font-weight: 600; margin-bottom: 6px; }
+
+    .highlights-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; }
+    .highlight-card { background: #fff; border: 1px solid #e6e6e6; border-radius: 8px; padding: 18px; }
+    .highlight-card h4 { font-family: 'Google Sans', sans-serif; font-weight: 700; margin-bottom: 6px; }
+
+    .section-divider { border: 0; border-top: 1px solid #eee; margin: 0; }
+
+    @media (max-width: 768px) {
+      .teaser-grid { grid-template-columns: 1fr; }
+      .attn-example { grid-template-columns: 1fr; }
+      .qual-table { font-size: 0.7rem; }
+    }
+  </style>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
@@ -41,84 +78,58 @@
 </head>
 <body>
 
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h3 class="title is-5" style="color:#888; font-weight:500;">CVPR 2026 &mdash; CVEU Workshop</h3>
+          <h1 class="title is-1 publication-title">FOCUS:<br>
+            Optimal Control for Multi-Entity World Modeling in Text-to-Image Generation</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><a href="https://ericbill.me/" target="_blank">Eric Tillmann Bill</a>,</span>
+            <span class="author-block"><a href="https://enis.dev/" target="_blank">Enis Simsar</a>,</span>
+            <span class="author-block"><a href="https://da.inf.ethz.ch/people/ThomasHofmann" target="_blank">Thomas Hofmann</a></span>
+          </div>
 
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">ETH Zürich</span>
+          </div>
+
           <div class="column has-text-centered">
-            <!-- <h3 class="title is-4">Oral @ CVPR 2026 CVEU</h3> -->
-            <h3 class="title is-4"></h3>
-            <h1 class="title is-1 publication-title">FOCUS:<br>
-              Optimal Control for Multi-Entity World Modeling in Text-to-Image Generation</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- Paper authors -->
-              <span class="author-block">
-                <a href="https://ericbill.me/" target="_blank">Eric Tillmann Bill</a>,</span>
-                <a href="https://enis.dev/" target="_blank">Enis Simsar</a>,</span>
-                <span class="author-block">
-                  <a href="https://da.inf.ethz.ch/" target="_blank">Thomas Hofmann</a></span>
-                </div>
-
-                  <div class="is-size-5 publication-authors">
-                    <span class="author-block">ETH Zürich</span>
-                  </div>
-
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                      <!-- ArXiv abstract Link -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/abs/2510.02315" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="ai ai-arxiv"></i>
-                        </span>
-                        <span>arXiv</span>
-                      </a>
-                    </span>
-
-                  <!-- Github link -->
-                  <span class="link-block">
-                    <a href="https://github.com/ericbill21/FOCUS" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  <!-- HF SD3 -->
-                  <span class="link-block">
-                    <a href="https://huggingface.co/ericbill21/focus_sd35" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                          &#129303;
-                      </span>
-                    <span>SD3.5 Medium</span>
-                  </a>
-                </span>
-                <!-- HF FLUX -->
-                <span class="link-block">
-                    <a href="https://huggingface.co/ericbill21/focus_flux" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                          &#129303;
-                      </span>
-                    <span>FLUX.1 [DEV]</span>
-                  </a>
-                </span>
-                <!-- COLAB -->
-                <span class="link-block">
-                    <a href="https://colab.research.google.com/github/ericbill21/FOCUS/blob/main/demo_finetuning.ipynb" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <img
-                        src="static/images/colab.svg"
-                        alt="Google Colab"
-                        style="height: 1em; width: 1em; vertical-align: middle;"
-                      >
-                    </span>
-                    <span>Colab</span>
-                  </a>
-                </span>
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2510.02315" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="ai ai-arxiv"></i></span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://github.com/ericbill21/FOCUS" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-github"></i></span>
+                  <span>Code</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://huggingface.co/ericbill21/focus_sd35" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">&#129303;</span>
+                  <span>SD3.5 Medium</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://huggingface.co/ericbill21/focus_flux" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">&#129303;</span>
+                  <span>FLUX.1 [dev]</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://colab.research.google.com/github/ericbill21/FOCUS/blob/main/demo_finetuning.ipynb" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <img src="static/images/colab.svg" alt="Google Colab" style="height: 1em; width: 1em; vertical-align: middle;">
+                  </span>
+                  <span>Colab</span>
+                </a>
+              </span>
             </div>
           </div>
         </div>
@@ -127,23 +138,55 @@
   </div>
 </section>
 
-<!-- Qualitative Results -->
-<section class="section hero">
+<!-- Teaser -->
+<section class="section" style="padding-top: 1rem;">
   <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column has-text-centered">
-        <h2 class="title">WORK IN PROGRESS🚧</h2>
-        <!-- <figure class="image">
-          <img src="static/images/missing" alt="WIP">
-        </figure> -->
-        <p>Rest of the website will be live soon....!</p>
+    <div class="teaser-grid">
+      <div class="teaser-block">
+        <div class="teaser-label">Base Models</div>
+        <div class="teaser-row row-2">
+          <img src="static/images/teaser_base/img_0.jpg" alt="">
+          <img src="static/images/teaser_base/img_3.jpg" alt="">
+        </div>
+        <div class="teaser-row row-3">
+          <img src="static/images/teaser_base/img_24.jpg" alt="">
+          <img src="static/images/teaser_base/img_17.jpg" alt="">
+          <img src="static/images/teaser_base/img_18.jpg" alt="">
+        </div>
+        <div class="teaser-row row-4">
+          <img src="static/images/teaser_base/img_19.jpg" alt="">
+          <img src="static/images/teaser_base/img_14.jpg" alt="">
+          <img src="static/images/teaser_base/img_21.jpg" alt="">
+          <img src="static/images/teaser_base/img_23.jpg" alt="">
+        </div>
+      </div>
+      <div class="teaser-block">
+        <div class="teaser-label">Base Models + FOCUS (Ours)</div>
+        <div class="teaser-row row-2">
+          <img src="static/images/teaser_opt/img_0.jpg" alt="">
+          <img src="static/images/teaser_opt/img_3.jpg" alt="">
+        </div>
+        <div class="teaser-row row-3">
+          <img src="static/images/teaser_opt/img_24.jpg" alt="">
+          <img src="static/images/teaser_opt/img_17.jpg" alt="">
+          <img src="static/images/teaser_opt/img_18.jpg" alt="">
+        </div>
+        <div class="teaser-row row-4">
+          <img src="static/images/teaser_opt/img_19.jpg" alt="">
+          <img src="static/images/teaser_opt/img_14.jpg" alt="">
+          <img src="static/images/teaser_opt/img_21.jpg" alt="">
+          <img src="static/images/teaser_opt/img_23.jpg" alt="">
+        </div>
       </div>
     </div>
+    <p class="has-text-centered" style="margin-top: 14px; font-size: 0.95rem; color: #444;">
+      <b>Optimal control improves coherent multi-subject generation in flow matching models.</b>
+      Using <span style="font-variant: small-caps;">FOCUS</span> at test time or via fine-tuning yields faithful compositions with correct attribute binding, minimal leakage, and no omissions, while preserving base style.
+    </p>
   </div>
 </section>
-<!-- End Qualitative Results -->
 
-<!-- Paper abstract -->
+<!-- Abstract -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
@@ -151,52 +194,385 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Text-to-image (T2I) models excel on single-entity prompts but struggle with multi-entity scenes, often exhibiting attribute leakage, identity entanglement, and subject omissions. We present a principled theoretical framework that steers sampling toward multi-subject fidelity by casting flow matching (FM) as stochastic optimal control (SOC), yielding a single hyperparameter controlled trade-off between fidelity and object-centric state separation / binding consistency. Within this framework, we derive two architecture-agnostic algorithms: (i) a training-free test-time controller that perturbs the base velocity with a single-pass update, and (ii) <em>Adjoint Matching</em>, a lightweight fine-tuning rule that regresses a control network to a backward adjoint signal. The same formulation unifies prior attention heuristics, extends to diffusion models via a flow–diffusion correspondence, and provides the first fine-tuning route explicitly designed for multi-subject fidelity. In addition, we also introduce <strong>FOCUS</strong> (Flow Optimal Control for Unentangled Subjects), a probabilistic attention-binding objective compatible with both algorithms. Empirically, on Stable Diffusion~3.5 and FLUX.1, both algorithms consistently improve multi-subject alignment while maintaining base-model style; test-time control runs efficiently on commodity GPUs, and fine-tuned models generalize to unseen prompts.
+            Text-to-image (T2I) models excel on single-entity prompts but struggle with multi-entity scenes, often exhibiting attribute leakage, identity entanglement, and subject omissions. We present a principled theoretical framework that steers sampling toward multi-subject fidelity by casting <b>flow matching (FM)</b> as <b>stochastic optimal control (SOC)</b>, yielding a single-hyperparameter trade-off between fidelity and object-centric state separation / binding consistency. Within this framework, we derive two architecture-agnostic algorithms: (i) a training-free <b>test-time controller</b> that perturbs the base velocity with a single-pass update, and (ii) <em>Adjoint Matching</em>, a lightweight <b>fine-tuning</b> rule that regresses a control network to a backward adjoint signal. The same formulation unifies prior attention heuristics, extends to diffusion models via a flow&ndash;diffusion correspondence, and provides the first fine-tuning route explicitly designed for multi-subject fidelity. In addition, we introduce <b>FOCUS</b> (<em>Flow Optimal Control for Unentangled Subjects</em>), a probabilistic attention-binding objective compatible with both algorithms. Empirically, on Stable Diffusion&nbsp;3.5 and FLUX.1, both algorithms consistently improve multi-subject alignment while maintaining base-model style; test-time control runs efficiently on commodity GPUs, and fine-tuned models generalize to unseen prompts.
           </p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End paper abstract -->
 
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>@misc{bill2025focus,
-      title={Optimal Control for Multi-Entity World Modeling in Text-to-Image Generation<}, 
-      author={Eric Tillmann Bill and Enis Simsar and Thomas Hofmann},
-      year={2025},
-}</code></pre>
+<!-- Highlights -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Highlights</h2>
+    <div class="highlights-grid">
+      <div class="highlight-card">
+        <h4>🧭 Principled framework</h4>
+        <p>Casts flow matching as stochastic optimal control, giving a single &lambda; that trades off fidelity vs. subject disentanglement.</p>
+      </div>
+      <div class="highlight-card">
+        <h4>⚡ Test-time controller</h4>
+        <p>Training-free: perturbs the base velocity with one extra pass. Runs on commodity GPUs (≈12&nbsp;GB VRAM).</p>
+      </div>
+      <div class="highlight-card">
+        <h4>🪶 Adjoint Matching</h4>
+        <p>Lightweight LoRA fine-tuning (&lt;0.1% of weights) that regresses to a backward adjoint signal &mdash; <b>zero</b> inference-time overhead.</p>
+      </div>
+      <div class="highlight-card">
+        <h4>🎯 FOCUS loss</h4>
+        <p>A probabilistic Jensen&ndash;Shannon objective over cross-attention distributions, scaling to any number of subjects.</p>
+      </div>
+      <div class="highlight-card">
+        <h4>🧩 Model-agnostic</h4>
+        <p>Works with SD&nbsp;3.5, FLUX.1, SDXL; unifies prior attention heuristics under one optimization view.</p>
+      </div>
+      <div class="highlight-card">
+        <h4>🏆 State-of-the-art</h4>
+        <p>Best composite scores and highest human-preference Elo on both backbones, at test time and after fine-tuning.</p>
+      </div>
     </div>
+  </div>
 </section>
-<!--End BibTex citation -->
 
+<!-- Method: Attention example -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Method</h2>
+    <div class="content has-text-justified" style="max-width: 880px; margin: 0 auto;">
+      <p>
+        We view the sampler of a flow-matching model as a controlled SDE and ask: <em>what is the minimum perturbation that fixes multi-subject generation?</em> Solving this with stochastic optimal control yields two architecture-agnostic recipes &mdash; a <b>test-time controller</b> (single-pass velocity correction) and <b>Adjoint Matching</b> (offline LoRA fine-tuning of a control network against a backward adjoint signal). Both are driven by the same running cost&nbsp;<i>f</i>, plug into off-the-shelf samplers, and unify prior attention heuristics (Attend&amp;Excite, CONFORM, Divide&amp;Bind) as special cases.
+      </p>
+      <p>
+        For the running cost, we exploit the fact that cross-attention maps from image tokens to subject tokens are <em>probability distributions</em> over spatial locations. <b>FOCUS</b> therefore combines a within-subject consistency term and a between-subject separation term, both expressed as normalized Jensen&ndash;Shannon divergences. The result is a loss that scales to an arbitrary number of subjects while encouraging unimodal, localized, and non-overlapping attention.
+      </p>
+    </div>
 
-  <footer class="footer">
+    <div style="max-width: 760px; margin: 28px auto 0 auto;">
+      <div class="attn-example">
+        <figure>
+          <figcaption>Dachshund</figcaption>
+          <img src="static/images/attn_example/dachshund.jpg" alt="Cross-attention map for 'dachshund'">
+        </figure>
+        <figure>
+          <figcaption>Corgi</figcaption>
+          <img src="static/images/attn_example/corgi.jpg" alt="Cross-attention map for 'corgi'">
+        </figure>
+        <figure>
+          <figcaption>Image</figcaption>
+          <img src="static/images/attn_example/dachshund_corgi.jpg" alt="Generated image">
+        </figure>
+      </div>
+      <p class="has-text-centered" style="font-size: 0.9rem; color: #555; margin-top: 10px;">
+        Per-subject cross-attention maps extracted from FLUX.1 [dev] for the prompt <em>&ldquo;A dachshund and a corgi sitting together on a cozy rug&rdquo;</em>. FOCUS shapes these distributions to be localized and disjoint.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Qualitative results: Test-time -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Test-Time Control &mdash; Qualitative Results</h2>
+    <p class="has-text-centered" style="color: #555; max-width: 820px; margin: 0 auto 20px auto;">
+      All heuristics share the same sampler, seed, and prompt &mdash; only the SOC running cost changes. Each method is shown at its optimal &lambda;.
+    </p>
+
+    <table class="qual-table">
+      <thead>
+        <tr>
+          <th style="width: 24px;"></th>
+          <th>Base</th>
+          <th>Attend&amp;Excite</th>
+          <th>CONFORM</th>
+          <th>Divide&amp;Bind</th>
+          <th>Self-Cross Guidance</th>
+          <th>FOCUS (Ours)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="row-label">SD 3.5</td>
+          <td><img src="static/images/SD3-OTF/base/img_3.jpg" alt=""></td>
+          <td><img src="static/images/SD3-OTF/attend_and_excite/img_3.jpg" alt=""></td>
+          <td><img src="static/images/SD3-OTF/conform/img_3.jpg" alt=""></td>
+          <td><img src="static/images/SD3-OTF/divide_and_bind/img_3.jpg" alt=""></td>
+          <td><img src="static/images/SD3-OTF/scg/img_3.jpg" alt=""></td>
+          <td class="qual-highlight"><img src="static/images/SD3-OTF/focus/img_3.jpg" alt=""></td>
+        </tr>
+        <tr><td></td><td colspan="6" class="qual-prompt">&ldquo;An astronaut, a violin, and a sunflower floating inside a space station&rdquo;</td></tr>
+        <tr>
+          <td class="row-label">FLUX.1</td>
+          <td><img src="static/images/FLUX-OTF/base/img_1.jpg" alt=""></td>
+          <td><img src="static/images/FLUX-OTF/attend_and_excite/img_1.jpg" alt=""></td>
+          <td><img src="static/images/FLUX-OTF/conform/img_1.jpg" alt=""></td>
+          <td><img src="static/images/FLUX-OTF/divide_and_bind/img_1.jpg" alt=""></td>
+          <td><img src="static/images/FLUX-OTF/scg/img_1.jpg" alt=""></td>
+          <td class="qual-highlight"><img src="static/images/FLUX-OTF/focus/img_1.jpg" alt=""></td>
+        </tr>
+        <tr><td></td><td colspan="6" class="qual-prompt">&ldquo;A swan, a goose, and a duck drifting past lily pads&rdquo;</td></tr>
+        <tr>
+          <td class="row-label">SD 3.5</td>
+          <td><img src="static/images/SD3-OTF/base/img_5.jpg" alt=""></td>
+          <td><img src="static/images/SD3-OTF/attend_and_excite/img_5.jpg" alt=""></td>
+          <td><img src="static/images/SD3-OTF/conform/img_5.jpg" alt=""></td>
+          <td><img src="static/images/SD3-OTF/divide_and_bind/img_5.jpg" alt=""></td>
+          <td><img src="static/images/SD3-OTF/scg/img_5.jpg" alt=""></td>
+          <td class="qual-highlight"><img src="static/images/SD3-OTF/focus/img_5.jpg" alt=""></td>
+        </tr>
+        <tr>
+          <td class="row-label">FLUX.1</td>
+          <td><img src="static/images/FLUX-OTF/base/img_5.jpg" alt=""></td>
+          <td><img src="static/images/FLUX-OTF/attend_and_excite/img_5.jpg" alt=""></td>
+          <td><img src="static/images/FLUX-OTF/conform/img_5.jpg" alt=""></td>
+          <td><img src="static/images/FLUX-OTF/divide_and_bind/img_5.jpg" alt=""></td>
+          <td><img src="static/images/FLUX-OTF/scg/img_5.jpg" alt=""></td>
+          <td class="qual-highlight"><img src="static/images/FLUX-OTF/focus/img_5.jpg" alt=""></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- Qualitative results: Fine-tuning -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Fine-Tuned (Adjoint Matching) &mdash; Qualitative Results</h2>
+    <p class="has-text-centered" style="color: #555; max-width: 820px; margin: 0 auto 20px auto;">
+      Each heuristic is instantiated as the running cost during Adjoint-Matching fine-tuning with rank-4 LoRA. At inference, the controller adds <b>no</b> extra cost.
+    </p>
+
+    <table class="qual-table">
+      <thead>
+        <tr>
+          <th style="width: 24px;"></th>
+          <th>Base</th>
+          <th>Attend&amp;Excite</th>
+          <th>CONFORM</th>
+          <th>Divide&amp;Bind</th>
+          <th>Self-Cross Guidance</th>
+          <th>FOCUS (Ours)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="row-label">SD 3.5</td>
+          <td><img src="static/images/SD3-FINE/base/img_1.jpg" alt=""></td>
+          <td><img src="static/images/SD3-FINE/attend_and_excite/img_1.jpg" alt=""></td>
+          <td><img src="static/images/SD3-FINE/conform/img_1.jpg" alt=""></td>
+          <td><img src="static/images/SD3-FINE/divide_and_bind/img_1.jpg" alt=""></td>
+          <td><img src="static/images/SD3-FINE/scg/img_1.jpg" alt=""></td>
+          <td class="qual-highlight"><img src="static/images/SD3-FINE/focus/img_1.jpg" alt=""></td>
+        </tr>
+        <tr>
+          <td class="row-label">SD 3.5</td>
+          <td><img src="static/images/SD3-FINE/base/img_15.jpg" alt=""></td>
+          <td><img src="static/images/SD3-FINE/attend_and_excite/img_15.jpg" alt=""></td>
+          <td><img src="static/images/SD3-FINE/conform/img_15.jpg" alt=""></td>
+          <td><img src="static/images/SD3-FINE/divide_and_bind/img_15.jpg" alt=""></td>
+          <td><img src="static/images/SD3-FINE/scg/img_15.jpg" alt=""></td>
+          <td class="qual-highlight"><img src="static/images/SD3-FINE/focus/img_15.jpg" alt=""></td>
+        </tr>
+        <tr>
+          <td class="row-label">FLUX.1</td>
+          <td><img src="static/images/FLUX-FINE/base/img_2.jpg" alt=""></td>
+          <td><img src="static/images/FLUX-FINE/attend_and_excite/img_2.jpg" alt=""></td>
+          <td><img src="static/images/FLUX-FINE/conform/img_2.jpg" alt=""></td>
+          <td><img src="static/images/FLUX-FINE/divide_and_bind/img_2.jpg" alt=""></td>
+          <td><img src="static/images/FLUX-FINE/scg/img_2.jpg" alt=""></td>
+          <td class="qual-highlight"><img src="static/images/FLUX-FINE/focus/img_2.jpg" alt=""></td>
+        </tr>
+        <tr>
+          <td class="row-label">FLUX.1</td>
+          <td><img src="static/images/FLUX-FINE/base/img_23.jpg" alt=""></td>
+          <td><img src="static/images/FLUX-FINE/attend_and_excite/img_23.jpg" alt=""></td>
+          <td><img src="static/images/FLUX-FINE/conform/img_23.jpg" alt=""></td>
+          <td><img src="static/images/FLUX-FINE/divide_and_bind/img_23.jpg" alt=""></td>
+          <td><img src="static/images/FLUX-FINE/scg/img_23.jpg" alt=""></td>
+          <td class="qual-highlight"><img src="static/images/FLUX-FINE/focus/img_23.jpg" alt=""></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- Quantitative results -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Quantitative Results</h2>
+    <p class="has-text-centered" style="color: #555; max-width: 820px; margin: 0 auto 20px auto;">
+      Mean over a 150-prompt corpus (2&ndash;4 subjects per prompt) with five seeds. <span class="gold" style="padding: 0 4px;">Gold</span> / <span class="silver" style="padding: 0 4px;">silver</span> / <span class="bronze" style="padding: 0 4px;">bronze</span> mark the top-three values per metric. Composite&nbsp;= macro-average of baseline-relative gains across all metrics.
+    </p>
+
+    <h3 class="title is-5">Test-time control</h3>
+    <div class="table-container">
+      <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth metrics-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Heuristic</th>
+            <th>CLIP I-T ↑</th>
+            <th>SigLIP-2 I-T ↑</th>
+            <th>BLIP T-T ↑</th>
+            <th>Qwen2 T-T ↑</th>
+            <th>PickScore ↑</th>
+            <th>ImageReward ↑</th>
+            <th>Composite ↑</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td rowspan="5"><b>SD&nbsp;3.5</b></td>
+            <td>Base</td><td>0.3474</td><td>0.2309</td><td>0.5731</td><td class="bronze">0.6402</td><td>22.694</td><td>1.3175</td><td>0.000</td></tr>
+          <tr><td>Attend&amp;Excite</td><td class="silver">0.3484</td><td class="silver">0.2326</td><td class="silver">0.5752</td><td class="silver">0.6404</td><td class="bronze">22.695</td><td class="bronze">1.3545</td><td>3.171</td></tr>
+          <tr><td>CONFORM</td><td>0.3481</td><td class="bronze">0.2323</td><td class="gold"><b>0.5773</b></td><td class="gold"><b>0.6421</b></td><td class="silver">22.719</td><td class="silver">1.3684</td><td class="bronze">3.434</td></tr>
+          <tr><td>Divide&amp;Bind</td><td class="gold"><b>0.3489</b></td><td>0.2316</td><td>0.5742</td><td>0.6399</td><td>22.678</td><td>1.3493</td><td class="silver">3.937</td></tr>
+          <tr class="ours-row"><td>FOCUS (Ours)</td><td class="bronze">0.3483</td><td class="gold"><b>0.2344</b></td><td class="bronze">0.5751</td><td>0.6385</td><td class="gold"><b>22.750</b></td><td class="gold"><b>1.4003</b></td><td class="gold"><b>4.287</b></td></tr>
+
+          <tr><td rowspan="5"><b>FLUX.1</b></td>
+            <td>Base</td><td class="silver">0.3449</td><td class="silver">0.2271</td><td class="silver">0.5739</td><td>0.6300</td><td class="bronze">23.423</td><td class="gold"><b>1.2970</b></td><td>0.000</td></tr>
+          <tr><td>Attend&amp;Excite</td><td>0.3430</td><td>0.2242</td><td>0.5716</td><td>0.6304</td><td>23.255</td><td>1.2494</td><td class="silver">1.760</td></tr>
+          <tr><td>CONFORM</td><td>0.3436</td><td>0.2252</td><td class="bronze">0.5726</td><td class="bronze">0.6321</td><td>23.357</td><td>1.2461</td><td>1.511</td></tr>
+          <tr><td>Divide&amp;Bind</td><td class="gold"><b>0.3453</b></td><td class="gold"><b>0.2272</b></td><td>0.5722</td><td class="gold"><b>0.6330</b></td><td class="gold"><b>23.439</b></td><td class="silver">1.2939</td><td class="bronze">1.635</td></tr>
+          <tr class="ours-row"><td>FOCUS (Ours)</td><td class="bronze">0.3446</td><td class="bronze">0.2268</td><td class="gold"><b>0.5741</b></td><td class="silver">0.6326</td><td class="silver">23.427</td><td class="bronze">1.2913</td><td class="gold"><b>1.971</b></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="title is-5" style="margin-top: 28px;">Fine-tuning (Adjoint Matching)</h3>
+    <div class="table-container">
+      <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth metrics-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Heuristic</th>
+            <th>CLIP I-T ↑</th>
+            <th>SigLIP-2 I-T ↑</th>
+            <th>BLIP T-T ↑</th>
+            <th>Qwen2 T-T ↑</th>
+            <th>PickScore ↑</th>
+            <th>ImageReward ↑</th>
+            <th>Composite ↑</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td rowspan="5"><b>SD&nbsp;3.5</b></td>
+            <td>Base</td><td>0.3474</td><td class="silver">0.2309</td><td>0.5731</td><td class="silver">0.6402</td><td class="silver">22.694</td><td>1.3175</td><td>0.000</td></tr>
+          <tr><td>Attend&amp;Excite</td><td>0.3469</td><td>0.2281</td><td class="silver">0.5747</td><td class="gold"><b>0.6425</b></td><td class="gold"><b>22.843</b></td><td class="silver">1.4460</td><td class="silver">5.718</td></tr>
+          <tr><td>CONFORM</td><td class="bronze">0.3478</td><td class="bronze">0.2294</td><td>0.5646</td><td class="bronze">0.6393</td><td>22.596</td><td class="bronze">1.3782</td><td class="bronze">3.458</td></tr>
+          <tr><td>Divide&amp;Bind</td><td class="silver">0.3486</td><td>0.2266</td><td class="gold"><b>0.5870</b></td><td>0.6358</td><td>22.340</td><td>1.3524</td><td>0.801</td></tr>
+          <tr class="ours-row"><td>FOCUS (Ours)</td><td class="gold"><b>0.3495</b></td><td class="gold"><b>0.2331</b></td><td class="bronze">0.5744</td><td>0.6383</td><td class="bronze">22.645</td><td class="gold"><b>1.4495</b></td><td class="gold"><b>5.917</b></td></tr>
+
+          <tr><td rowspan="5"><b>FLUX.1</b></td>
+            <td>Base</td><td>0.3449</td><td>0.2271</td><td>0.5739</td><td>0.6300</td><td class="gold"><b>23.423</b></td><td>1.2970</td><td>0.000</td></tr>
+          <tr><td>Attend&amp;Excite</td><td class="gold"><b>0.3468</b></td><td class="silver">0.2320</td><td class="gold"><b>0.5876</b></td><td class="silver">0.6382</td><td class="bronze">23.333</td><td class="silver">1.3806</td><td class="silver">2.348</td></tr>
+          <tr><td>CONFORM</td><td class="bronze">0.3458</td><td class="bronze">0.2305</td><td class="silver">0.5800</td><td class="bronze">0.6369</td><td class="silver">23.372</td><td class="bronze">1.3631</td><td class="bronze">1.959</td></tr>
+          <tr><td>Divide&amp;Bind</td><td>0.3445</td><td>0.2296</td><td>0.5705</td><td>0.6246</td><td>23.191</td><td>1.2269</td><td>0.200</td></tr>
+          <tr class="ours-row"><td>FOCUS (Ours)</td><td class="silver">0.3468</td><td class="gold"><b>0.2328</b></td><td class="bronze">0.5780</td><td class="gold"><b>0.6386</b></td><td>23.328</td><td class="gold"><b>1.3899</b></td><td class="gold"><b>2.588</b></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- Human study -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Human Preference Study</h2>
+    <p class="has-text-centered" style="color: #555; max-width: 820px; margin: 0 auto 20px auto;">
+      Pairwise preference study with 50 participants and 2,000 comparisons.
+      FOCUS attains the highest win rates on both backbones, and the highest Elo for test-time control.
+    </p>
+
+    <div class="columns is-centered">
+      <div class="column is-three-quarters">
+        <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth metrics-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Heuristic</th>
+              <th colspan="2">SD&nbsp;3.5</th>
+              <th colspan="2">FLUX.1</th>
+            </tr>
+            <tr>
+              <th></th>
+              <th></th>
+              <th>Win %</th><th>Elo ↑</th>
+              <th>Win %</th><th>Elo ↑</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td rowspan="5"><b>Test-Time</b></td>
+              <td>Base</td><td>45%</td><td class="bronze">1517</td><td>46%</td><td>1464</td></tr>
+            <tr><td>Attend&amp;Excite</td><td class="silver">53%</td><td>1500</td><td>49%</td><td class="silver">1526</td></tr>
+            <tr><td>CONFORM</td><td>42%</td><td>1373</td><td class="silver">50%</td><td class="bronze">1498</td></tr>
+            <tr><td>Divide&amp;Bind</td><td class="bronze">50%</td><td class="gold"><b>1562</b></td><td class="silver">50%</td><td>1450</td></tr>
+            <tr class="ours-row"><td>FOCUS (Ours)</td><td class="gold"><b>58%</b></td><td class="silver">1548</td><td class="gold"><b>54%</b></td><td class="gold"><b>1562</b></td></tr>
+
+            <tr><td rowspan="5"><b>Fine-tuning</b></td>
+              <td>Base</td><td>39%</td><td>1355</td><td class="silver">51%</td><td>1462</td></tr>
+            <tr><td>Attend&amp;Excite</td><td class="silver">56%</td><td class="silver">1584</td><td class="bronze">50%</td><td class="bronze">1476</td></tr>
+            <tr><td>CONFORM</td><td class="bronze">49%</td><td class="bronze">1520</td><td>50%</td><td class="gold"><b>1620</b></td></tr>
+            <tr><td>Divide&amp;Bind</td><td>48%</td><td>1436</td><td>43%</td><td>1442</td></tr>
+            <tr class="ours-row"><td>FOCUS (Ours)</td><td class="gold"><b>57%</b></td><td class="gold"><b>1605</b></td><td class="gold"><b>54%</b></td><td class="silver">1500</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Data efficiency -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Data Efficiency of Fine-Tuning</h2>
+    <p class="has-text-centered" style="color: #555; max-width: 820px; margin: 0 auto 20px auto;">
+      Composite scores when training FOCUS on subsets of the corpus.
+      <b>A single training prompt</b> already yields strong gains &mdash; the SOC controller learns a broadly useful disentangling direction from very limited supervision.
+    </p>
+    <div class="columns is-centered">
+      <div class="column is-half">
+        <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth metrics-table">
+          <thead>
+            <tr><th>Model</th><th>1 prompt</th><th>15 prompts</th><th>150 prompts</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><b>SD&nbsp;3.5</b></td><td class="gold"><b>5.917</b></td><td>3.191</td><td>1.682</td></tr>
+            <tr><td><b>FLUX.1</b></td><td class="gold"><b>2.588</b></td><td>2.457</td><td>1.810</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BibTeX -->
+<section class="section hero is-light" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{bill2026focus,
+  title     = {FOCUS: Optimal Control for Multi-Entity World Modeling in Text-to-Image Generation},
+  author    = {Eric Tillmann Bill and Enis Simsar and Thomas Hofmann},
+  booktitle = {CVPR 2026 Workshop on Computer Vision for Entertainment and Universal Media (CVEU)},
+  year      = {2026}
+}</code></pre>
+  </div>
+</section>
+
+<footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
-
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br>
+            This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
-
         </div>
       </div>
     </div>
   </div>
 </footer>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+</body>
+</html>
