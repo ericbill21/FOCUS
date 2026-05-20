@@ -35,12 +35,13 @@
     .teaser-block .row-4 { grid-template-columns: 1fr 1fr 1fr 1fr; }
     .teaser-label { font-family: 'Google Sans', sans-serif; font-weight: 700; margin-bottom: 6px; text-align: center; }
 
-    .qual-table { width: 100%; border-collapse: separate; border-spacing: 3px; }
-    .qual-table th { font-family: 'Google Sans', sans-serif; font-weight: 600; font-size: 0.85rem; text-align: center; padding: 4px 2px; }
-    .qual-table td { padding: 0; text-align: center; vertical-align: middle; }
-    .qual-table td img { width: 100%; height: auto; display: block; border-radius: 4px; }
-    .qual-table .row-label { font-family: 'Google Sans', sans-serif; font-weight: 700; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; font-size: 0.9rem; }
-    .qual-prompt { font-style: italic; font-size: 0.9rem; color: #444; text-align: center; padding-top: 4px; padding-bottom: 10px; }
+    table.qual-table { width: 100%; border-collapse: separate; border-spacing: 3px; table-layout: fixed; text-align: center; }
+    table.qual-table col.col-label { width: 32px; }
+    table.qual-table th { font-family: 'Google Sans', sans-serif; font-weight: 600; font-size: 0.85rem; text-align: center; padding: 4px 2px; }
+    table.qual-table td { padding: 0; text-align: center; vertical-align: middle; }
+    table.qual-table td img { width: 100%; height: auto; display: block; border-radius: 4px; }
+    table.qual-table td.row-label { font-family: 'Google Sans', sans-serif; font-weight: 700; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; font-size: 0.9rem; text-align: center; }
+    table.qual-table td.qual-prompt { font-style: italic; font-size: 0.9rem; color: #444; text-align: center; padding-top: 6px; padding-bottom: 12px; }
     .qual-highlight { outline: 2px solid #2c8a8a; border-radius: 5px; }
 
     .metrics-table { font-size: 0.85rem; }
@@ -56,7 +57,9 @@
     .attn-example img { width: 100%; height: auto; border-radius: 4px; display: block; }
     .attn-example figcaption { text-align: center; font-family: 'Google Sans', sans-serif; font-weight: 600; margin-bottom: 6px; }
 
-    .highlights-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; }
+    .highlights-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    @media (max-width: 900px) { .highlights-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 600px) { .highlights-grid { grid-template-columns: 1fr; } }
     .highlight-card { background: #fff; border: 1px solid #e6e6e6; border-radius: 8px; padding: 18px; }
     .highlight-card h4 { font-family: 'Google Sans', sans-serif; font-weight: 700; margin-bottom: 6px; }
 
@@ -83,7 +86,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h3 class="title is-5" style="color:#888; font-weight:500;">CVPR 2026 &mdash; CVEU Workshop</h3>
+          <h3 class="title is-5" style="color:#888; font-weight:500;">Oral &middot; CVPR 2026 &mdash; CVEU Workshop</h3>
           <h1 class="title is-1 publication-title">FOCUS:<br>
             Optimal Control for Multi-Entity World Modeling in Text-to-Image Generation</h1>
           <div class="is-size-5 publication-authors">
@@ -279,9 +282,13 @@
     </p>
 
     <table class="qual-table">
+      <colgroup>
+        <col class="col-label">
+        <col><col><col><col><col><col>
+      </colgroup>
       <thead>
         <tr>
-          <th style="width: 24px;"></th>
+          <th></th>
           <th>Base</th>
           <th>Attend&amp;Excite</th>
           <th>CONFORM</th>
@@ -300,7 +307,7 @@
           <td><img src="static/images/SD3-OTF/scg/img_3.jpg" alt=""></td>
           <td class="qual-highlight"><img src="static/images/SD3-OTF/focus/img_3.jpg" alt=""></td>
         </tr>
-        <tr><td></td><td colspan="6" class="qual-prompt">&ldquo;An astronaut, a violin, and a sunflower floating inside a space station&rdquo;</td></tr>
+        <tr><td colspan="7" class="qual-prompt">&ldquo;An astronaut, a violin, and a sunflower floating inside a space station&rdquo;</td></tr>
         <tr>
           <td class="row-label">FLUX.1</td>
           <td><img src="static/images/FLUX-OTF/base/img_1.jpg" alt=""></td>
@@ -310,7 +317,7 @@
           <td><img src="static/images/FLUX-OTF/scg/img_1.jpg" alt=""></td>
           <td class="qual-highlight"><img src="static/images/FLUX-OTF/focus/img_1.jpg" alt=""></td>
         </tr>
-        <tr><td></td><td colspan="6" class="qual-prompt">&ldquo;A swan, a goose, and a duck drifting past lily pads&rdquo;</td></tr>
+        <tr><td colspan="7" class="qual-prompt">&ldquo;A swan, a goose, and a duck drifting past lily pads&rdquo;</td></tr>
         <tr>
           <td class="row-label">SD 3.5</td>
           <td><img src="static/images/SD3-OTF/base/img_5.jpg" alt=""></td>
@@ -320,6 +327,7 @@
           <td><img src="static/images/SD3-OTF/scg/img_5.jpg" alt=""></td>
           <td class="qual-highlight"><img src="static/images/SD3-OTF/focus/img_5.jpg" alt=""></td>
         </tr>
+        <tr><td colspan="7" class="qual-prompt">&ldquo;A fox, a lantern, and a teapot in a misty forest clearing&rdquo;</td></tr>
         <tr>
           <td class="row-label">FLUX.1</td>
           <td><img src="static/images/FLUX-OTF/base/img_5.jpg" alt=""></td>
@@ -329,6 +337,7 @@
           <td><img src="static/images/FLUX-OTF/scg/img_5.jpg" alt=""></td>
           <td class="qual-highlight"><img src="static/images/FLUX-OTF/focus/img_5.jpg" alt=""></td>
         </tr>
+        <tr><td colspan="7" class="qual-prompt">&ldquo;A quartz crystal, an amethyst, and a citrine displayed on black velvet&rdquo;</td></tr>
       </tbody>
     </table>
   </div>
@@ -343,9 +352,13 @@
     </p>
 
     <table class="qual-table">
+      <colgroup>
+        <col class="col-label">
+        <col><col><col><col><col><col>
+      </colgroup>
       <thead>
         <tr>
-          <th style="width: 24px;"></th>
+          <th></th>
           <th>Base</th>
           <th>Attend&amp;Excite</th>
           <th>CONFORM</th>
@@ -364,6 +377,7 @@
           <td><img src="static/images/SD3-FINE/scg/img_1.jpg" alt=""></td>
           <td class="qual-highlight"><img src="static/images/SD3-FINE/focus/img_1.jpg" alt=""></td>
         </tr>
+        <tr><td colspan="7" class="qual-prompt">&ldquo;A Siberian Husky, an Alaskan Malamute, and a Samoyed trotting through fresh snow&rdquo;</td></tr>
         <tr>
           <td class="row-label">SD 3.5</td>
           <td><img src="static/images/SD3-FINE/base/img_15.jpg" alt=""></td>
@@ -373,6 +387,7 @@
           <td><img src="static/images/SD3-FINE/scg/img_15.jpg" alt=""></td>
           <td class="qual-highlight"><img src="static/images/SD3-FINE/focus/img_15.jpg" alt=""></td>
         </tr>
+        <tr><td colspan="7" class="qual-prompt">&ldquo;A magician, a white rabbit, and a deck of cards on a velvet stage&rdquo;</td></tr>
         <tr>
           <td class="row-label">FLUX.1</td>
           <td><img src="static/images/FLUX-FINE/base/img_2.jpg" alt=""></td>
@@ -382,6 +397,7 @@
           <td><img src="static/images/FLUX-FINE/scg/img_2.jpg" alt=""></td>
           <td class="qual-highlight"><img src="static/images/FLUX-FINE/focus/img_2.jpg" alt=""></td>
         </tr>
+        <tr><td colspan="7" class="qual-prompt">&ldquo;A macaw, a cockatoo, and an Amazon parrot perched on a jungle vine&rdquo;</td></tr>
         <tr>
           <td class="row-label">FLUX.1</td>
           <td><img src="static/images/FLUX-FINE/base/img_23.jpg" alt=""></td>
@@ -391,6 +407,7 @@
           <td><img src="static/images/FLUX-FINE/scg/img_23.jpg" alt=""></td>
           <td class="qual-highlight"><img src="static/images/FLUX-FINE/focus/img_23.jpg" alt=""></td>
         </tr>
+        <tr><td colspan="7" class="qual-prompt">&ldquo;A jellyfish, a seashell, and a glass bottle drifting in turquoise water&rdquo;</td></tr>
       </tbody>
     </table>
   </div>
@@ -549,7 +566,7 @@
 <section class="section hero is-light" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@inproceedings{bill2026focus,
+    <pre style="background:#1e1e1e; color:#f8f8f2; padding:18px; border-radius:6px; overflow-x:auto;"><code style="background:transparent; color:inherit;">@inproceedings{bill2026focus,
   title     = {FOCUS: Optimal Control for Multi-Entity World Modeling in Text-to-Image Generation},
   author    = {Eric Tillmann Bill and Enis Simsar and Thomas Hofmann},
   booktitle = {CVPR 2026 Workshop on Computer Vision for Entertainment and Universal Media (CVEU)},
